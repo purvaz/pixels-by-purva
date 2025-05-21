@@ -47,7 +47,7 @@ export default function LightboxGallery({
         className="text-white text-base md:text-lg font-light uppercase tracking-wide mt-4 mb-2"
         style={{ fontFamily: "var(--font-cormorant)" }}
       >
-        {currentPhoto.location}
+        {currentPhoto.label}
       </h2>
 
       {/* Main Image */}
@@ -80,7 +80,7 @@ export default function LightboxGallery({
       </button>
 
       {/* Thumbnails */}
-      <div className="flex gap-2 overflow-x-auto px-4 py-4 max-w-5xl mt-4">
+      <div className="flex gap-2 overflow-x-auto px-2 py-2 max-w-5xl mt-4">
         {images.map((img, idx) => (
           <div
             key={img.filename}
@@ -88,13 +88,14 @@ export default function LightboxGallery({
               idx === currentIndex ? "border-white" : "border-transparent"
             }`}
             onClick={() => setCurrentIndex(idx)}
+            style={{ width: "96px", height: "64px" }}
           >
             <Image
               src={`/images/${img.filename}`}
               alt={img.label}
-              width={100}
-              height={70}
-              className="object-cover w-24 h-16"
+              width={96}
+              height={64}
+              className="w-full h-full object-cover block align-bottom"
             />
           </div>
         ))}
