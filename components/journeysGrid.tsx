@@ -4,6 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 import { PhotoMeta } from "@/lib/photoMetaData";
 import LightboxGallery from "@/components/LightboxGallery";
+import { motion } from "framer-motion";
 
 export default function JourneysGrid({
   locationCovers,
@@ -19,16 +20,23 @@ export default function JourneysGrid({
   return (
     <>
       <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4 md:px-8 lg:px-12 pb-12">
-        {locationCovers.map(({ location, coverPhoto }) => (
-          <div
+        {locationCovers.map(({ location, coverPhoto }, index) => (
+          <motion.div
             key={location}
             className="relative group cursor-pointer h-80 rounded overflow-hidden"
             onClick={() => {
               const images = allPhotos.filter((p) => p.location === location);
               setSelectedImages(images);
-              setStartIndex(0); // optionally set this to a specific photo
+              setStartIndex(0);
               setIsLightboxOpen(true);
             }}
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{
+              duration: 0.6,
+              ease: "easeOut"
+            }}
+            viewport={{ once: true, amount: 0.3 }}
           >
             <Image
               src={`/images/${coverPhoto.filename}`}
@@ -44,7 +52,7 @@ export default function JourneysGrid({
                 {location}
               </span>
             </div>
-          </div>
+          </motion.div>
         ))}
       </section>
 
