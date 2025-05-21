@@ -1,7 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
+  /* --background: #FAF5F0; */
+  --background: #FDFAF6;
   --foreground: #000000;
   --font-cormorant: 'Cormorant Garamond', serif;
 }

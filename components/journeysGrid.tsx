@@ -1,0 +1,61 @@
+"use client";
+
+import { useState } from "react";
+import Image from "next/image";
+import { PhotoMeta } from "@/lib/photoMetaData";
+import LightboxGallery from "@/components/LightboxGallery";
+
+export default function JourneysGrid({
+  locationCovers,
+  allPhotos,
+}: {
+  locationCovers: { location: string; coverPhoto: PhotoMeta }[];
+  allPhotos: PhotoMeta[];
+}) {
+  const [isLightboxOpen, setIsLightboxOpen] = useState(false);
+  const [selectedImages, setSelectedImages] = useState<PhotoMeta[]>([]);
+  const [startIndex, setStartIndex] = useState(0);
+
+  return (
+    <>
+      <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4 md:px-8 lg:px-12 pb-12">
+        {locationCovers.map(({ location, coverPhoto }) => (
+          <div
+            key={location}
+            className="relative group cursor-pointer h-80 rounded overflow-hidden"
+            onClick={() => {
+              const images = allPhotos.filter((p) => p.location === location);
+              setSelectedImages(images);
+              setStartIndex(0); // optionally set this to a specific photo
+              setIsLightboxOpen(true);
+            }}
+          >
+            <Image
+              src={`/images/${coverPhoto.filename}`}
+              alt={coverPhoto.label}
+              fill
+              className="object-cover object-center transition-transform duration-300 group-hover:scale-105"
+            />
+            {/* Overlay */}
+            <div className="absolute inset-0 bg-black/40" />
+            {/* Location title */}
+            <div className="absolute inset-0 flex items-center justify-center">
+              <span className="text-white text-xl md:text-2xl font-light tracking-wide uppercase text-center px-4">
+                {location}
+              </span>
+            </div>
+          </div>
+        ))}
+      </section>
+
+      {/* Lightbox modal */}
+      {isLightboxOpen && (
+        <LightboxGallery
+          images={selectedImages}
+          initialIndex={startIndex}
+          onClose={() => setIsLightboxOpen(false)}
+        />
+      )}
+    </>
+  );
+}
