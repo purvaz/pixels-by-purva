@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import { photoMetaData } from "@/lib/photoMetaData";
+import { motion } from "framer-motion";
 
 export default function PhotoGallery() {
     const [selectedPhoto, setSelectedPhoto] = useState<string | null>(null);
@@ -24,11 +25,19 @@ export default function PhotoGallery() {
         <>
             {/* Photo Grid */}
             <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 px-6 py-12">
-                {photoMetaData.map((photo) => (
-                    <div
+                {photoMetaData.map((photo, index) => (
+                    <motion.div
                         key={photo.filename}
                         className="relative group overflow-hidden rounded cursor-pointer"
                         onClick={() => setSelectedPhoto(`/images/${photo.filename}`)}
+                        initial={{ opacity: 0, y: 30 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{
+                            duration: 0.6,
+                            delay: index * 0.05,
+                            ease: "easeOut"
+                        }}
+                        viewport={{ once: true }}
                     >
                         <Image
                             src={`/images/${photo.filename}`}
@@ -50,8 +59,9 @@ export default function PhotoGallery() {
                             )}
                             <div className="text-xs tracking-wider">{photo.label}</div>
                         </div>
-                    </div>
+                    </motion.div>
                 ))}
+
             </section>
 
             {/* Lightbox Overlay */}
