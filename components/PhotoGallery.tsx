@@ -8,6 +8,8 @@ import { motion } from "framer-motion";
 export default function PhotoGallery() {
     const [selectedPhoto, setSelectedPhoto] = useState<string | null>(null);
 
+    const dashboardPhotos = photoMetaData.filter((photo) => photo.isGallery);
+
     const photoObject = photoMetaData.find(
         (p) => `/images/${p.filename}` === selectedPhoto
     );
@@ -25,7 +27,7 @@ export default function PhotoGallery() {
         <>
             {/* Photo Grid */}
             <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 px-6 py-12">
-                {photoMetaData.map((photo, index) => (
+                {dashboardPhotos.map((photo, index) => (
                     <motion.div
                         key={photo.filename}
                         className="relative group overflow-hidden rounded cursor-pointer"

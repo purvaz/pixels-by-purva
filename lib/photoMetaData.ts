@@ -6,6 +6,7 @@ export interface PhotoMeta {
     category: "mountains" | "architecture" | "beach" | "landscape" | "lake" | "desert" | "cityscapes" | "flowers";
     journalSlug?: string;
     isLocationCover?: boolean;
+    isGallery: boolean;
 }
 
 export const photoMetaData: PhotoMeta[] = [
@@ -15,6 +16,7 @@ export const photoMetaData: PhotoMeta[] = [
         location: "Yosemite",
         category: "mountains",
         journalSlug: "Journal entries of Yosemite.",
+        isGallery: true,
 
     }, 
     {
@@ -24,6 +26,7 @@ export const photoMetaData: PhotoMeta[] = [
         location: "Yosemite",
         category: "mountains",
         journalSlug: "Journal entries of Yosemite.",
+        isGallery: false,
 
     },
     {
@@ -34,6 +37,7 @@ export const photoMetaData: PhotoMeta[] = [
         category: "mountains",
         journalSlug: "Journal entries of Yosemite.",
         isLocationCover: true,
+        isGallery: true,
     },
     {
         filename: "photo4.png", 
@@ -41,6 +45,7 @@ export const photoMetaData: PhotoMeta[] = [
         location: "Yosemite",
         category: "mountains",
         journalSlug: "Journal entries of Yosemite.",
+        isGallery: false,
 
     },
     {
@@ -50,6 +55,7 @@ export const photoMetaData: PhotoMeta[] = [
         location: "Alaska",
         category: "landscape",
         journalSlug: "Journal entries of Alaska.",
+        isGallery: true,
     }, 
     {
         filename: "photo6.png", 
@@ -58,6 +64,7 @@ export const photoMetaData: PhotoMeta[] = [
         location: "Alaska",
         category: "landscape",
         journalSlug: "Journal entries of Alaska.",
+        isGallery: true,
     }, 
     {
         filename: "photo7.png", 
@@ -65,6 +72,7 @@ export const photoMetaData: PhotoMeta[] = [
         location: "Alaska",
         category: "landscape",
         journalSlug: "Journal entries of Alaska.",
+        isGallery: true,
         isLocationCover: true,
     }, 
     {
@@ -73,6 +81,7 @@ export const photoMetaData: PhotoMeta[] = [
         location: "Alaska",
         category: "landscape",
         journalSlug: "Journal entries of Alaska.",
+        isGallery: false,
     }, 
     {
         filename: "photo9.png", 
@@ -81,6 +90,7 @@ export const photoMetaData: PhotoMeta[] = [
         location: "Alaska",
         category: "landscape",
         journalSlug: "Journal entries of Alaska.",
+        isGallery: true,
     }, 
     {
         filename: "photo10.png", 
@@ -88,6 +98,7 @@ export const photoMetaData: PhotoMeta[] = [
         location: "Alaska",
         category: "landscape",
         journalSlug: "Journal entries of Alaska.",
+        isGallery: false,
     }, 
     {
         filename: "photo11.png", 
@@ -95,6 +106,7 @@ export const photoMetaData: PhotoMeta[] = [
         location: "Alaska",
         category: "landscape",
         journalSlug: "Journal entries of Alaska.",
+        isGallery: false,
     }, 
     {
         filename: "photo12.png", 
@@ -103,6 +115,7 @@ export const photoMetaData: PhotoMeta[] = [
         location: "Alaska",
         category: "landscape",
         journalSlug: "Journal entries of Alaska.",
+        isGallery: true,
     }, 
     {
         filename: "photo13.png", 
@@ -110,6 +123,7 @@ export const photoMetaData: PhotoMeta[] = [
         location: "Alaska",
         category: "landscape",
         journalSlug: "Journal entries of Alaska.",
+        isGallery: true,
     }, 
     {
         filename: "photo14.png", 
@@ -118,6 +132,7 @@ export const photoMetaData: PhotoMeta[] = [
         location: "Lake Tahoe",
         category: "lake",
         journalSlug: "Journal entries of Tahoe.",
+        isGallery: true,
         isLocationCover: true,
     }, 
     {
@@ -126,6 +141,7 @@ export const photoMetaData: PhotoMeta[] = [
         location: "Lake Tahoe",
         category: "lake",
         journalSlug: "Journal entries of Tahoe.",
+        isGallery: true,
     }, 
     {
         filename: "photo16.png", 
@@ -134,6 +150,7 @@ export const photoMetaData: PhotoMeta[] = [
         location: "Death Valley",
         category: "desert",
         journalSlug: "Journal entries of Death Valley.",
+        isGallery: true,
         isLocationCover: true,
     }, 
     {
@@ -142,5 +159,6 @@ export const photoMetaData: PhotoMeta[] = [
         location: "Death Valley",
         category: "desert",
         journalSlug: "Journal entries of Death Valley.",
+        isGallery: true,
     }, 
 ];

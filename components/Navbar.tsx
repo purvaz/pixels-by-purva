@@ -19,7 +19,7 @@ export default function Navbar({ title, subtitle }: { title: string; subtitle?: 
           {title}
         </h1>
         <nav className="mt-4 md:mt-0 flex gap-6 text-sm uppercase font-medium tracking-wide">
-          <Link href="/" className={linkClass("/")}>Work</Link>
+          <Link href="/" className={linkClass("/")}>Showcase</Link>
           <Link href="/journeys" className={linkClass("/journeys")}>Journeys</Link>
           <Link href="/themes" className={linkClass("/themes")}>Themes</Link>
           <Link href="/journal" className={linkClass("/journal")}>Stories</Link>
