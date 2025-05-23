@@ -1,3 +1,6 @@
+// This is the metadata file for the photos
+
+// Themes for theme page
 export type Theme = 
     | "Mountain Vistas" 
     | "Architectural Details" 
@@ -8,7 +11,9 @@ export type Theme =
     | "Cityscapes" 
     | "Floral Closeups"
     | "Visual Rhythm"
+    | "Cascading Falls"
 
+// Interface for the MetaData object
 export interface PhotoMeta {
     filename: string;
     title?: string;
@@ -20,6 +25,7 @@ export interface PhotoMeta {
     isGallery: boolean; // photo should be displayed on the showcase
 }
 
+// Metadata content
 export const photoMetaData: PhotoMeta[] = [
     {
         filename: "photo1.png", 
@@ -64,7 +70,7 @@ export const photoMetaData: PhotoMeta[] = [
         label: "Anchorage, Alaska",
         title: "Through a picture frame",
         location: "Alaska",
-        theme: ["Open Landscapes"],
+        theme: ["Scenic Landscapes"],
         journalSlug: "Journal entries of Alaska.",
         isGallery: true,
     }, 
@@ -73,7 +79,7 @@ export const photoMetaData: PhotoMeta[] = [
         label: "Anchorage, Alaska",
         title: "The Red Barn",
         location: "Alaska",
-        theme: ["Open Landscapes"],
+        theme: ["Scenic Landscapes"],
         journalSlug: "Journal entries of Alaska.",
         isGallery: true,
     }, 
@@ -81,7 +87,7 @@ export const photoMetaData: PhotoMeta[] = [
         filename: "photo7.png", 
         label: "Aialik Glacier, Seward, Alaska",
         location: "Alaska",
-        theme: ["Open Landscapes"],
+        theme: ["Scenic Landscapes"],
         journalSlug: "Journal entries of Alaska.",
         isGallery: true,
         isLocationCover: true,
@@ -90,7 +96,7 @@ export const photoMetaData: PhotoMeta[] = [
         filename: "photo8.png", 
         label: "Aialik Glacier, Seward, Alaska",
         location: "Alaska",
-        theme: ["Open Landscapes"],
+        theme: ["Scenic Landscapes"],
         journalSlug: "Journal entries of Alaska.",
         isGallery: false,
     }, 
@@ -99,7 +105,7 @@ export const photoMetaData: PhotoMeta[] = [
         label: "Denali National Park, Alaska",
         title: "Untamed and Majestic",
         location: "Alaska",
-        theme: ["Open Landscapes"],
+        theme: ["Scenic Landscapes"],
         journalSlug: "Journal entries of Alaska.",
         isGallery: true,
     }, 
@@ -107,7 +113,7 @@ export const photoMetaData: PhotoMeta[] = [
         filename: "photo10.png", 
         label: "Denali National Park, Alaska",
         location: "Alaska",
-        theme: ["Open Landscapes"],
+        theme: ["Scenic Landscapes"],
         journalSlug: "Journal entries of Alaska.",
         isGallery: false,
     }, 
@@ -115,7 +121,7 @@ export const photoMetaData: PhotoMeta[] = [
         filename: "photo11.png", 
         label: "Denali National Park, Alaska",
         location: "Alaska",
-        theme: ["Open Landscapes"],
+        theme: ["Scenic Landscapes"],
         journalSlug: "Journal entries of Alaska.",
         isGallery: false,
     }, 
@@ -124,7 +130,7 @@ export const photoMetaData: PhotoMeta[] = [
         label: "Denali National Park, Alaska",
         title: "Crimson Wilderness",
         location: "Alaska",
-        theme: ["Open Landscapes"],
+        theme: ["Scenic Landscapes"],
         journalSlug: "Journal entries of Alaska.",
         isGallery: true,
     }, 
@@ -132,7 +138,7 @@ export const photoMetaData: PhotoMeta[] = [
         filename: "photo13.png", 
         label: "Denali National Park, Alaska",
         location: "Alaska",
-        theme: ["Open Landscapes"],
+        theme: ["Scenic Landscapes"],
         journalSlug: "Journal entries of Alaska.",
         isGallery: true,
     }, 

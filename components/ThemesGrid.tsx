@@ -1,3 +1,5 @@
+// Wrapper for the Themes Page images
+
 "use client";
 
 import { useState } from "react";
@@ -8,6 +10,7 @@ import { motion } from "framer-motion";
 import { Great_Vibes } from "next/font/google";
 import { Theme } from "@/lib/photoMetaData"
 
+// Custom font 
 const greatVibes = Great_Vibes({
     weight: "400",
     subsets: ["latin"],
@@ -59,14 +62,11 @@ export default function ThemesGrid({
                             <div className="absolute inset-0 bg-black/40 z-10" />
 
                             {/* Soft semi-transparent strip near the bottom */}
-                            <div
-                                className="absolute inset-x-0 bottom-12 z-20 py-3 text-center"
+                            <div className="absolute inset-x-0 bottom-12 z-20 py-3 text-center"
                                 style={{ backgroundColor: "rgba(253, 250, 246, 0.85)" }}>
-                                <span
-    className={`${greatVibes.className} text-gray-900 text-3xl italic tracking-wide opacity-80`}
-  >
-    {theme}
-  </span>
+                                <span className={`${greatVibes.className} text-gray-900 text-3xl italic tracking-wide opacity-80`}>
+                                    {theme}
+                                </span>
                             </div>
                         </motion.div>
                     )

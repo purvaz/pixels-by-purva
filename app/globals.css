@@ -1,3 +1,6 @@
+/* CSS file for global space, ie the entire application. 
+   Any styles here will be applied to the whole app. */
+
 @import "tailwindcss";
 
 :root {

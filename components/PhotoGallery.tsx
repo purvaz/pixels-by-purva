@@ -1,3 +1,5 @@
+// Landing page photo grid
+
 "use client";
 
 import { useEffect, useState } from "react";

@@ -1,3 +1,5 @@
+// Import custom fonts for the whole app
+
 import type { Metadata } from "next";
 import { Cormorant_Garamond } from "next/font/google";
 import "./globals.css";
