@@ -1,12 +1,23 @@
+export type Theme = 
+    | "Mountain Vistas" 
+    | "Architectural Details" 
+    | "Coastal Scenes" 
+    | "Scenic Landscapes" 
+    | "Lakeside Views" 
+    | "Desert Landscapes" 
+    | "Cityscapes" 
+    | "Floral Closeups"
+    | "Visual Rhythm"
+
 export interface PhotoMeta {
     filename: string;
     title?: string;
     label: string;
     location: string;
-    category: "mountains" | "architecture" | "beach" | "landscape" | "lake" | "desert" | "cityscapes" | "flowers";
+    theme: Theme[]
     journalSlug?: string;
-    isLocationCover?: boolean;
-    isGallery: boolean;
+    isLocationCover?: boolean; // journeys page cover photo
+    isGallery: boolean; // photo should be displayed on the showcase
 }
 
 export const photoMetaData: PhotoMeta[] = [
@@ -14,7 +25,7 @@ export const photoMetaData: PhotoMeta[] = [
         filename: "photo1.png", 
         label: "Tunnel View, Yosemite, California",
         location: "Yosemite",
-        category: "mountains",
+        theme: ["Mountain Vistas"],
         journalSlug: "Journal entries of Yosemite.",
         isGallery: true,
 
@@ -24,7 +35,7 @@ export const photoMetaData: PhotoMeta[] = [
         label: "Bridalveil Falls, Yosemite, California",
         title: "Veiled Flow",
         location: "Yosemite",
-        category: "mountains",
+        theme: ["Mountain Vistas"],
         journalSlug: "Journal entries of Yosemite.",
         isGallery: false,
 
@@ -34,7 +45,7 @@ export const photoMetaData: PhotoMeta[] = [
         label: "Yosemite Meadow, Yosemite, California",
         title: "When Color Meets Stone",
         location: "Yosemite",
-        category: "mountains",
+        theme: ["Mountain Vistas"],
         journalSlug: "Journal entries of Yosemite.",
         isLocationCover: true,
         isGallery: true,
@@ -43,7 +54,7 @@ export const photoMetaData: PhotoMeta[] = [
         filename: "photo4.png", 
         label: "Tunnel View, Yosemite, California",
         location: "Yosemite",
-        category: "mountains",
+        theme: ["Mountain Vistas"],
         journalSlug: "Journal entries of Yosemite.",
         isGallery: false,
 
@@ -53,7 +64,7 @@ export const photoMetaData: PhotoMeta[] = [
         label: "Anchorage, Alaska",
         title: "Through a picture frame",
         location: "Alaska",
-        category: "landscape",
+        theme: ["Open Landscapes"],
         journalSlug: "Journal entries of Alaska.",
         isGallery: true,
     }, 
@@ -62,7 +73,7 @@ export const photoMetaData: PhotoMeta[] = [
         label: "Anchorage, Alaska",
         title: "The Red Barn",
         location: "Alaska",
-        category: "landscape",
+        theme: ["Open Landscapes"],
         journalSlug: "Journal entries of Alaska.",
         isGallery: true,
     }, 
@@ -70,7 +81,7 @@ export const photoMetaData: PhotoMeta[] = [
         filename: "photo7.png", 
         label: "Aialik Glacier, Seward, Alaska",
         location: "Alaska",
-        category: "landscape",
+        theme: ["Open Landscapes"],
         journalSlug: "Journal entries of Alaska.",
         isGallery: true,
         isLocationCover: true,
@@ -79,7 +90,7 @@ export const photoMetaData: PhotoMeta[] = [
         filename: "photo8.png", 
         label: "Aialik Glacier, Seward, Alaska",
         location: "Alaska",
-        category: "landscape",
+        theme: ["Open Landscapes"],
         journalSlug: "Journal entries of Alaska.",
         isGallery: false,
     }, 
@@ -88,7 +99,7 @@ export const photoMetaData: PhotoMeta[] = [
         label: "Denali National Park, Alaska",
         title: "Untamed and Majestic",
         location: "Alaska",
-        category: "landscape",
+        theme: ["Open Landscapes"],
         journalSlug: "Journal entries of Alaska.",
         isGallery: true,
     }, 
@@ -96,7 +107,7 @@ export const photoMetaData: PhotoMeta[] = [
         filename: "photo10.png", 
         label: "Denali National Park, Alaska",
         location: "Alaska",
-        category: "landscape",
+        theme: ["Open Landscapes"],
         journalSlug: "Journal entries of Alaska.",
         isGallery: false,
     }, 
@@ -104,7 +115,7 @@ export const photoMetaData: PhotoMeta[] = [
         filename: "photo11.png", 
         label: "Denali National Park, Alaska",
         location: "Alaska",
-        category: "landscape",
+        theme: ["Open Landscapes"],
         journalSlug: "Journal entries of Alaska.",
         isGallery: false,
     }, 
@@ -113,7 +124,7 @@ export const photoMetaData: PhotoMeta[] = [
         label: "Denali National Park, Alaska",
         title: "Crimson Wilderness",
         location: "Alaska",
-        category: "landscape",
+        theme: ["Open Landscapes"],
         journalSlug: "Journal entries of Alaska.",
         isGallery: true,
     }, 
@@ -121,7 +132,7 @@ export const photoMetaData: PhotoMeta[] = [
         filename: "photo13.png", 
         label: "Denali National Park, Alaska",
         location: "Alaska",
-        category: "landscape",
+        theme: ["Open Landscapes"],
         journalSlug: "Journal entries of Alaska.",
         isGallery: true,
     }, 
@@ -130,7 +141,7 @@ export const photoMetaData: PhotoMeta[] = [
         label: "Lake Tahoe, California",
         title: "Blue Above, Blue Below",
         location: "Lake Tahoe",
-        category: "lake",
+        theme: ["Lakeside Views"],
         journalSlug: "Journal entries of Tahoe.",
         isGallery: true,
         isLocationCover: true,
@@ -139,7 +150,7 @@ export const photoMetaData: PhotoMeta[] = [
         filename: "photo15.png", 
         label: "Lake Tahoe, California",
         location: "Lake Tahoe",
-        category: "lake",
+        theme: ["Lakeside Views"],
         journalSlug: "Journal entries of Tahoe.",
         isGallery: true,
     }, 
@@ -148,7 +159,7 @@ export const photoMetaData: PhotoMeta[] = [
         label: "Death Valley, California",
         title: "Highway to Heat",
         location: "Death Valley",
-        category: "desert",
+        theme: ["Desert Landscapes"],
         journalSlug: "Journal entries of Death Valley.",
         isGallery: true,
         isLocationCover: true,
@@ -157,7 +168,7 @@ export const photoMetaData: PhotoMeta[] = [
         filename: "photo17.png", 
         label: "Death Valley, California",
         location: "Death Valley",
-        category: "desert",
+        theme: ["Desert Landscapes"],
         journalSlug: "Journal entries of Death Valley.",
         isGallery: true,
     }, 

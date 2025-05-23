@@ -7,7 +7,7 @@ const cormorant = Cormorant_Garamond({
   subsets: ['latin'],
   variable: '--font-cormorant'
 });
-
+ 
 export const metadata: Metadata = {
   title: "Pixels By Purva",
   description: "A Modern & Minimalist Website for Showcasing my Amateur Photography.",
