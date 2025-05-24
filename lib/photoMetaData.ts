@@ -7,7 +7,7 @@ export type Theme =
     | "Coastal Scenes" 
     | "Scenic Landscapes" 
     | "Lakeside Views" 
-    | "Desert Landscapes" 
+    | "Dust & Dunes" 
     | "Cityscapes" 
     | "Floral Closeups"
     | "Visual Rhythm"
@@ -165,7 +165,7 @@ export const photoMetaData: PhotoMeta[] = [
         label: "Death Valley, California",
         title: "Highway to Heat",
         location: "Death Valley",
-        theme: ["Desert Landscapes"],
+        theme: ["Dust & Dunes"],
         journalSlug: "Journal entries of Death Valley.",
         isGallery: true,
         isLocationCover: true,
@@ -174,7 +174,7 @@ export const photoMetaData: PhotoMeta[] = [
         filename: "photo17.png", 
         label: "Death Valley, California",
         location: "Death Valley",
-        theme: ["Desert Landscapes"],
+        theme: ["Dust & Dunes"],
         journalSlug: "Journal entries of Death Valley.",
         isGallery: true,
     }, 

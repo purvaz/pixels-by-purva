@@ -32,7 +32,6 @@ export default function ThemesGrid({
         <>
             <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4 md:px-8 lg:px-12 pb-12">
                 {themeCovers.map(({ theme, coverPhoto }) => {
-                    console.log("themeCover item:", theme);
                     return (
                         <motion.div
                             key={`${theme}-${coverPhoto.filename}`}
@@ -55,6 +54,7 @@ export default function ThemesGrid({
                                 src={`/images/${coverPhoto.filename}`}
                                 alt={coverPhoto.label}
                                 fill
+                                sizes="(max-width: 768px) 100vw, 33vw"
                                 className="object-cover object-center transition-transform duration-300 group-hover:scale-105"
                             />
 
@@ -62,7 +62,7 @@ export default function ThemesGrid({
                             <div className="absolute inset-0 bg-black/40 z-10" />
 
                             {/* Soft semi-transparent strip near the bottom */}
-                            <div className="absolute inset-x-0 bottom-12 z-20 py-3 text-center"
+                            <div className="absolute inset-x-0 bottom-8 z-20 py-3 text-center"
                                 style={{ backgroundColor: "rgba(253, 250, 246, 0.85)" }}>
                                 <span className={`${greatVibes.className} text-gray-900 text-3xl italic tracking-wide opacity-80`}>
                                     {theme}
