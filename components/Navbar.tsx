@@ -26,7 +26,7 @@ export default function Navbar({ title, subtitle }: { title: string; subtitle?: 
           <Link href="/" className={linkClass("/")}>Showcase</Link>
           <Link href="/journeys" className={linkClass("/journeys")}>Journeys</Link>
           <Link href="/themes" className={linkClass("/themes")}>Themes</Link>
-          <Link href="/journal" className={linkClass("/journal")}>Stories</Link>
+          <Link href="/stories" className={linkClass("/stories")}>Stories</Link>
           <Link href="/about" className={linkClass("/about")}>About</Link>
         </nav>
       </div>

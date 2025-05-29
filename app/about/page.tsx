@@ -44,7 +44,7 @@ export default function About() {
 
                         <div className="text-base leading-relaxed space-y-4 text-gray-800">
                             <p>
-                                I didn’t start with five lenses or a lifelong dream, I started with a tiny camera and the thought, “This is fun!” That feeling stuck. Over the last eight years,
+                                I didn’t start with five lenses or a lifelong dream, I started with a tiny camera and the thought, “this is fun!” and that feeling stuck. Over the last eight years,
                                 I’ve pointed my camera at things that don’t speak, but somehow still say something.
                             </p>
                             <p>
@@ -58,7 +58,7 @@ export default function About() {
                             </p>
                             <p>
                                 By profession, I’m a software engineer. I’ve always wanted to build a space to share what I see with the world.
-                                So I figured, why not bring together the two things I love most: coding and photography.
+                                So I figured, why not bring together the two things I love the most: coding and photography.
                                 I built this website as both a creative outlet and a home for the stories I’ve framed along the way.
                             </p>
                         </div>

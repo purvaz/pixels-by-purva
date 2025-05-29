@@ -44,12 +44,19 @@ export default function PhotoGallery() {
                         viewport={{ once: true }}
                     >
                         <Image
-                            src={`/images/${photo.filename}`}
+                            src={`${process.env.NEXT_PUBLIC_BASE_URL}/${photo.filename}`}
                             alt={photo.label}
                             width={500}
                             height={700}
                             className="w-full h-auto object-cover"
                         />
+                        {/* <Image
+                            src={`${process.env.NEXT_PUBLIC_BASE_URL}/${photo.filename}`}
+                            alt={photo.label}
+                            width={500}
+                            height={400}
+                            className="w-full h-auto object-cover"
+                        /> */}
 
                         {/* Hover Overlay */}
                         <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
