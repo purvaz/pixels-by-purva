@@ -1,6 +1,9 @@
-import { photoMetaData } from "@/lib/photoMetaData";
+import  { PhotoMeta }  from "@/types/photoMetaData";
+import  rawPhotoMetaData  from "@/data/photoMetaData.json";
 import Navbar from "@/components/Navbar";
 import JourneysGrid from "@/components/JourneysGrid"; 
+
+const photoMetaData = rawPhotoMetaData as PhotoMeta[];
 
 export default function JourneysPage() {
   // Get all unique locations
@@ -9,13 +12,15 @@ export default function JourneysPage() {
   );
 
   // For each location, find its cover image
-  const locationCovers = locations.map((location) => {
+  const locationCovers: { location: string; coverPhoto: PhotoMeta }[] = locations.map((location) => {
     const coverPhoto =
-      photoMetaData.find(
-        (p) => p.location === location && p.isLocationCover
-      ) ||
+      photoMetaData.find((p) => p.location === location && p.isLocationCover) ||
       photoMetaData.find((p) => p.location === location);
-
+  
+    if (!coverPhoto) {
+      throw new Error(`No photo found for location "${location}"`);
+    }
+  
     return { location, coverPhoto };
   });
 

@@ -1,0 +1,329 @@
+[
+    {
+        "filename": "photo1.png", 
+        "label": "Tunnel View, Yosemite, California",
+        "location": "Yosemite",
+        "theme": ["Mountain Vistas"],
+        "journalSlug": "Journal entries of Yosemite.",
+        "isGallery": true
+
+    }, 
+    {
+        "filename": "photo2.png", 
+        "label": "Bridalveil Falls, Yosemite, California",
+        "title": "Veiled Flow",
+        "location": "Yosemite",
+        "theme": ["Mountain Vistas"],
+        "journalSlug": "Journal entries of Yosemite.",
+        "isGallery": false
+
+    },
+    {
+        "filename": "photo3.png", 
+        "label": "Yosemite Meadow, Yosemite, California",
+        "title": "When Color Meets Stone",
+        "location": "Yosemite",
+        "theme": ["Mountain Vistas"],
+        "journalSlug": "Journal entries of Yosemite.",
+        "isLocationCover": true,
+        "isGallery": true
+    },
+    {
+        "filename": "photo4.png", 
+        "label": "Tunnel View, Yosemite, California",
+        "location": "Yosemite",
+        "theme": ["Mountain Vistas"],
+        "journalSlug": "Journal entries of Yosemite.",
+        "isGallery": false
+
+    },
+    {
+        "filename": "photo5.png", 
+        "label": "Anchorage, Alaska",
+        "title": "Through a picture frame",
+        "location": "Alaska",
+        "theme": ["Scenic Landscapes"],
+        "journalSlug": "Journal entries of Alaska.",
+        "isGallery": true
+    }, 
+    {
+        "filename": "photo6.png", 
+        "label": "Anchorage, Alaska",
+        "title": "The Red Barn",
+        "location": "Alaska",
+        "theme": ["Scenic Landscapes"],
+        "journalSlug": "Journal entries of Alaska.",
+        "isGallery": true
+    }, 
+    {
+        "filename": "photo7.png", 
+        "label": "Aialik Glacier, Seward, Alaska",
+        "location": "Alaska",
+        "theme": ["Scenic Landscapes"],
+        "journalSlug": "Journal entries of Alaska.",
+        "isLocationCover": true,
+        "isGallery": true
+    }, 
+    {
+        "filename": "photo8.png", 
+        "label": "Aialik Glacier, Seward, Alaska",
+        "location": "Alaska",
+        "theme": ["Scenic Landscapes"],
+        "journalSlug": "Journal entries of Alaska.",
+        "isGallery": false
+    }, 
+    {
+        "filename": "photo9.png", 
+        "label": "Denali National Park, Alaska",
+        "title": "Untamed and Majestic",
+        "location": "Alaska",
+        "theme": ["Scenic Landscapes"],
+        "journalSlug": "Journal entries of Alaska.",
+        "isGallery": true
+    }, 
+    {
+        "filename": "photo10.png", 
+        "label": "Denali National Park, Alaska",
+        "location": "Alaska",
+        "theme": ["Scenic Landscapes"],
+        "journalSlug": "Journal entries of Alaska.",
+        "isGallery": false
+    }, 
+    {
+        "filename": "photo11.png", 
+        "label": "Denali National Park, Alaska",
+        "location": "Alaska",
+        "theme": ["Scenic Landscapes"],
+        "journalSlug": "Journal entries of Alaska.",
+        "isGallery": false
+    }, 
+    {
+        "filename": "photo12.png", 
+        "label": "Denali National Park, Alaska",
+        "title": "Crimson Wilderness",
+        "location": "Alaska",
+        "theme": ["Scenic Landscapes"],
+        "journalSlug": "Journal entries of Alaska.",
+        "isGallery": true
+    }, 
+    {
+        "filename": "photo13.png", 
+        "label": "Denali National Park, Alaska",
+        "location": "Alaska",
+        "theme": ["Scenic Landscapes"],
+        "journalSlug": "Journal entries of Alaska.",
+        "isGallery": true
+    }, 
+    {
+        "filename": "photo14.png", 
+        "label": "Lake Tahoe, California",
+        "title": "Blue Above, Blue Below",
+        "location": "Lake Tahoe",
+        "theme": ["Lakeside Views"],
+        "journalSlug": "Journal entries of Tahoe.",
+        "isLocationCover": true,
+        "isGallery": true
+    }, 
+    {
+        "filename": "photo15.png", 
+        "label": "Lake Tahoe, California",
+        "location": "Lake Tahoe",
+        "theme": ["Lakeside Views"],
+        "journalSlug": "Journal entries of Tahoe.",
+        "isGallery": true
+    }, 
+    {
+        "filename": "photo16.png", 
+        "label": "Death Valley, California",
+        "title": "Highway to Heat",
+        "location": "Death Valley",
+        "theme": ["Dust & Dunes"],
+        "journalSlug": "Journal entries of Death Valley.",
+        "isLocationCover": true,
+        "isGallery": true
+    }, 
+    {
+        "filename": "photo17.png", 
+        "label": "Death Valley, California",
+        "location": "Death Valley",
+        "theme": ["Dust & Dunes"],
+        "journalSlug": "Journal entries of Death Valley.",
+        "isGallery": true
+    }, 
+    {
+        "filename": "photo18.jpeg", 
+        "label": "Phuket, Thailand",
+        "location": "Thailand",
+        "theme": ["Coastal Scenes"],
+        "journalSlug": "Journal entries of Thailand.",
+        "isGallery": true
+    }, 
+    {
+        "filename": "photo19.jpeg", 
+        "label": "Bangkok, Thailand",
+        "location": "Thailand",
+        "theme": ["Architectural Details"],
+        "journalSlug": "Journal entries of Thailand.",
+        "isGallery": true
+    }, 
+    {
+        "filename": "photo20.jpeg", 
+        "label": "Krabi, Thailand",
+        "location": "Thailand",
+        "theme": ["Coastal Scenes"],
+        "journalSlug": "Journal entries of Thailand.",
+        "isGallery": true
+    }, 
+    {
+        "filename": "photo21.jpeg", 
+        "label": "Krabi, Thailand",
+        "location": "Thailand",
+        "theme": ["Coastal Scenes"],
+        "journalSlug": "Journal entries of Thailand.",
+        "isGallery": true
+    }, 
+    {
+        "filename": "photo22.jpg", 
+        "label": "Shivneri, Maharashtra, India",
+        "location": "Shivneri",
+        "theme": ["Architectural Details"],
+        "journalSlug": "Journal entries of Shivneri.",
+        "isGallery": true
+    }, 
+    {
+        "filename": "photo23.jpeg", 
+        "label": "Shivneri, Maharashtra, India",
+        "location": "Shivneri",
+        "theme": ["Scenic Landscapes"],
+        "journalSlug": "Journal entries of Shivneri.",
+        "isGallery": false
+    }, 
+    {
+        "filename": "photo24.jpg", 
+        "label": "Shivneri, Maharashtra, India",
+        "location": "Shivneri",
+        "theme": ["Architectural Details"],
+        "journalSlug": "Journal entries of Shivneri.",
+        "isGallery": true
+    }, 
+    {
+        "filename": "photo25.jpg", 
+        "label": "Shivneri, Maharashtra, India",
+        "location": "Shivneri",
+        "theme": ["Architectural Details"],
+        "journalSlug": "Journal entries of Shivneri.",
+        "isGallery": true
+    }, 
+    {
+        "filename": "photo26.jpg", 
+        "label": "Shivneri, Maharashtra, India",
+        "location": "Shivneri",
+        "theme": ["Architectural Details"],
+        "journalSlug": "Journal entries of Shivneri.",
+        "isGallery": true
+    }, 
+    {
+        "filename": "photo27.jpg", 
+        "label": "Jodhpur, Rajasthan, India",
+        "location": "Rajasthan",
+        "theme": ["Architectural Details"],
+        "journalSlug": "Journal entries of Rajasthan.",
+        "isGallery": true
+    },
+    {
+        "filename": "photo28.jpg", 
+        "label": "Jodhpur, Rajasthan, India",
+        "location": "Rajasthan",
+        "theme": ["Architectural Details"],
+        "journalSlug": "Journal entries of Rajasthan.",
+        "isGallery": true
+    },
+    {
+        "filename": "photo29.jpg", 
+        "label": "Jodhpur, Rajasthan, India",
+        "location": "Rajasthan",
+        "theme": ["Architectural Details"],
+        "journalSlug": "Journal entries of Rajasthan.",
+        "isGallery": true
+    },
+    {
+        "filename": "photo30.jpg", 
+        "label": "Jodhpur, Rajasthan, India",
+        "location": "Rajasthan",
+        "theme": ["Architectural Details"],
+        "journalSlug": "Journal entries of Rajasthan.",
+        "isGallery": true
+    },
+    {
+        "filename": "photo31.jpg", 
+        "label": "Jodhpur, Rajasthan, India",
+        "location": "Rajasthan",
+        "theme": ["Architectural Details"],
+        "journalSlug": "Journal entries of Rajasthan.",
+        "isGallery": true
+    },
+    {
+        "filename": "photo32.jpg", 
+        "label": "Jodhpur, Rajasthan, India",
+        "location": "Rajasthan",
+        "theme": ["Living Heritage"],
+        "journalSlug": "Journal entries of Rajasthan.",
+        "isGallery": true
+    },
+    {
+        "filename": "photo33.jpeg", 
+        "label": "Jaisalmer, Rajasthan, India",
+        "location": "Rajasthan",
+        "theme": ["Dust & Dunes"],
+        "journalSlug": "Journal entries of Rajasthan.",
+        "isGallery": true
+    },
+    {
+        "filename": "photo34.jpg", 
+        "label": "Jaisalmer, Rajasthan, India",
+        "location": "Rajasthan",
+        "theme": ["Dust & Dunes"],
+        "journalSlug": "Journal entries of Rajasthan.",
+        "isGallery": true
+    },
+    {
+        "filename": "photo35.jpeg", 
+        "label": "Jaisalmer, Rajasthan, India",
+        "location": "Rajasthan",
+        "theme": ["Dust & Dunes"],
+        "journalSlug": "Journal entries of Rajasthan.",
+        "isGallery": true
+    },
+    {
+        "filename": "photo36.jpg", 
+        "label": "Jaisalmer, Rajasthan, India",
+        "location": "Rajasthan",
+        "theme": ["Architectural Details"],
+        "journalSlug": "Journal entries of Rajasthan.",
+        "isGallery": false
+    },
+    {
+        "filename": "photo37.jpg", 
+        "label": "Jaisalmer, Rajasthan, India",
+        "location": "Rajasthan",
+        "theme": ["Architectural Details"],
+        "journalSlug": "Journal entries of Rajasthan.",
+        "isGallery": true
+    },
+    {
+        "filename": "photo38.jpeg", 
+        "label": "Jaisalmer, Rajasthan, India",
+        "location": "Rajasthan",
+        "theme": ["Living Heritage"],
+        "journalSlug": "Journal entries of Rajasthan.",
+        "isGallery": true
+    },
+    {
+        "filename": "photo40.jpg", 
+        "label": "Jaisalmer, Rajasthan, India",
+        "location": "Rajasthan",
+        "theme": ["Living Heritage"],
+        "journalSlug": "Journal entries of Rajasthan.",
+        "isGallery": true
+    }
+]

@@ -4,7 +4,7 @@
 
 import { useEffect, useState } from "react";
 import Image from "next/image";
-import { photoMetaData } from "@/lib/photoMetaData";
+import  photoMetaData  from "@/data/photoMetaData.json";
 import { motion } from "framer-motion";
 
 export default function PhotoGallery() {
@@ -43,13 +43,14 @@ export default function PhotoGallery() {
                         }}
                         viewport={{ once: true }}
                     >
-                        <Image
-                            src={`${process.env.NEXT_PUBLIC_BASE_URL}/${photo.filename}`}
-                            alt={photo.label}
-                            width={500}
-                            height={700}
-                            className="w-full h-auto object-cover"
-                        />
+                        <div className="relative aspect-[4/3] w-full rounded overflow-hidden">
+                            <Image
+                                src={`${process.env.NEXT_PUBLIC_BASE_URL}/${photo.filename}`}
+                                alt={photo.label}
+                                fill
+                                className="object-cover"
+                            />
+                        </div>
                         {/* <Image
                             src={`${process.env.NEXT_PUBLIC_BASE_URL}/${photo.filename}`}
                             alt={photo.label}

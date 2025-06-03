@@ -1,11 +1,13 @@
 import Navbar from "@/components/Navbar";
 import ThemesGrid from "@/components/ThemesGrid";
 import { getThemeCovers } from "@/lib/helper";
-import { photoMetaData } from "@/lib/photoMetaData";
+import { PhotoMeta } from "@/types/photoMetaData";
+import rawPhotoMetaData from "@/data/photoMetaData.json"
 
+const photoMetaData = rawPhotoMetaData as PhotoMeta[];
 
 export default function ThemesPage() {
-
+    
     const themeCovers = getThemeCovers(photoMetaData);
 
     return (

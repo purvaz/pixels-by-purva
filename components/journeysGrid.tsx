@@ -4,7 +4,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import { PhotoMeta } from "@/lib/photoMetaData";
+import type { PhotoMeta } from "@/types/photoMetaData";
 import LightboxGallery from "@/components/LightboxGallery";
 import { motion } from "framer-motion";
 
@@ -48,7 +48,6 @@ export default function JourneysGrid({
               src={`/images/${coverPhoto.filename}`}
               alt={coverPhoto.label}
               fill
-              sizes="(max-width: 768px) 100vw, 33vw"
               className="object-cover object-center transition-transform duration-300 group-hover:scale-105"
             />
             {/* Overlay */}

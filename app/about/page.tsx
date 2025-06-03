@@ -78,7 +78,7 @@ export default function About() {
 
 
                     <form className="space-y-8"
-                        action={process.env.NEXT_PUBLIC_FORMSUBMIT_ENDPOINT} 
+                        action={process.env.NEXT_PUBLIC_FORMSUBMIT_ENDPOINT}
                         method="POST">
 
                         {/* Honeypot field for spam protection */}
@@ -132,14 +132,15 @@ export default function About() {
                             ></textarea>
                         </div>
 
-                        <div className="flex justify-center">
+                        <div className="flex justify-center pb-8">
                             <button
                                 type="submit"
-                                className="border border-gray-800 px-6 py-2 text-sm uppercase tracking-widest hover:bg-gray-100 transition"
+                                className="bg-gray-800 text-white border border-gray-900 px-6 py-2 text-sm uppercase tracking-widest hover:bg-gray-900 hover:text-white transition"
                             >
                                 Send
                             </button>
                         </div>
+
                     </form>
                 </section>
             </div>
