@@ -115,7 +115,7 @@ export default function Navbar({
       {/* Mobile Tabs */}
       {isOpen && (
         <nav className="mt-4 md:hidden overflow-x-auto">
-          <div className="flex gap-6 text-sm uppercase font-medium tracking-wide pb-1 px-1 min-w-max no-scrollbar">
+          <div className="flex gap-6 text-[12px] uppercase font-medium tracking-wide pb-1 px-1 min-w-max no-scrollbar">
             {links.map(({ href, label }) => (
               <Link key={href} href={href} className={linkClass(href)}>
                 {label}
