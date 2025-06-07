@@ -80,7 +80,7 @@ export default function Navbar({
   return (
     <header
       className={`transition-transform duration-300 ease-in-out ${showNavbar ? "translate-y-0" : "-translate-y-full"
-        } fixed top-0 left-0 w-full z-50 px-4 md:px-8 lg:px-12 pt-10 pb-4 font-serif`}
+        } fixed top-0 left-0 w-full z-50 bg-[#FDFAF6] px-4 md:px-8 lg:px-12 pt-10 pb-4 font-serif`}
     >
       <div className="flex flex-row items-center justify-between">
         {/* Title */}
