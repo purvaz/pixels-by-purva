@@ -103,7 +103,7 @@ export default function PhotoGallery() {
                                 alt={photoObject.label}
                                 width={1000}
                                 height={1000}
-                                className="w-full h-auto object-contain rounded"
+                                className="w-full h-auto max-h-[80vh] object-contain rounded"
                             />
                             <button
                                 onClick={() => setSelectedPhoto(null)}

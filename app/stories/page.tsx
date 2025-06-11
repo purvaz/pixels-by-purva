@@ -7,7 +7,7 @@ export default function Stories() {
             <header>
                 <Navbar
                     title="Stories"
-                    subtitle="A glimpse into the mind behind the lens"
+                    subtitle="The words spoken between the photographs"
                 />
             </header>
         </div>

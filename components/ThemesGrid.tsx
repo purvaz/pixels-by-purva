@@ -57,7 +57,7 @@ export default function ThemesGrid({
                             />
 
                             {/* Full dark overlay for contrast */}
-                            <div className="absolute inset-0 bg-black/40 z-10" />
+                            <div className="absolute inset-0 bg-black/30 z-10" />
 
                             {/* Soft semi-transparent strip near the bottom */}
                             <div className="absolute inset-x-0 bottom-8 z-20 py-1 text-center"

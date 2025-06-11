@@ -59,7 +59,7 @@ export default function LightboxGallery({
           alt={currentPhoto.label}
           width={1400}
           height={900}
-          className="object-contain w-full h-auto rounded"
+          className="object-contain w-full max-h-[80vh] h-auto rounded"
         />
       </div>
 
