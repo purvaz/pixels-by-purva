@@ -1,4 +1,5 @@
 import Navbar from "@/components/Navbar"
+import StoriesGrid from "@/components/storiesGrid"
 
 export default function Stories() {
 
@@ -10,6 +11,9 @@ export default function Stories() {
                     subtitle="The words spoken between the photographs"
                 />
             </header>
+            <main>
+                <StoriesGrid/>
+            </main>
         </div>
     )
 }
