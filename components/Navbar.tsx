@@ -180,7 +180,15 @@ export default function Navbar({
       const currentScrollY = window.scrollY;
 
       setShowSubtitle(currentScrollY < 10);
+
       const delta = currentScrollY - lastScrollY.current;
+      
+      // Prevent flicker when at or very near top
+      if (currentScrollY < 10) {
+        setShowNavbar(true);
+        setShowSubtitle(true);
+        return;
+  }
 
       if (Math.abs(delta) < 20) return;
 
@@ -192,7 +200,7 @@ export default function Navbar({
 
       if (idleTimeout.current) clearTimeout(idleTimeout.current);
       idleTimeout.current = setTimeout(() => {
-        if (window.scrollY > 30) setShowNavbar(false);
+        if (window.scrollY > 20) setShowNavbar(false);
       }, 3000);
 
       lastScrollY.current = currentScrollY;
