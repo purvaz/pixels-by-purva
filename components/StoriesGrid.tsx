@@ -9,7 +9,7 @@ function StoryModal({ isOpen, onClose, story }: { isOpen: boolean; onClose: () =
   if (!isOpen || !story) return null;
 
   return (
-    <div className="fixed inset-0 z-50 bg-black/30 backdrop-blur-sm flex items-center justify-center p-4">
+    <div className="fixed inset-0 z-50 bg-black/60 backdrop-blur-sm flex items-center justify-center p-4 max-w-screen overflow-hidden">
       <div className="bg-white max-w-4xl w-full max-h-[90vh] overflow-y-auto rounded-xl shadow-2xl shadow-black/10 border border-gray-200 p-10 md:p-12 relative">
         <button
           className="absolute top-4 right-4 text-gray-500 hover:text-black transition"
@@ -63,7 +63,7 @@ export default function StoriesGrid() {
         {journalMetaData.map((journal, index) => (
           <div key={journal.slug} className="relative group">
             <div
-              className={`flex gap-12 items-center transition-transform duration-300 ease-in-out hover:-translate-y-2 cursor-pointer ${
+              className={`flex flex-col md:flex-row gap-6 md:gap-12 items-start transition-transform duration-300 ease-in-out hover:-translate-y-2 cursor-pointer ${
                 index % 2 === 1 ? "md:flex-row-reverse text-right" : ""
               }`}
               onClick={() => {
@@ -72,7 +72,8 @@ export default function StoriesGrid() {
               }}
             >
               {/* 📷 Image Stack */}
-              <div className="relative w-[300px] h-[240px] shrink-0">
+              <div className="relative w-full max-w-[300px] h-[240px] shrink-0 mx-auto md:mx-0">
+
                 {journal.images.filter(Boolean).slice(0, 3).map((img, i) => {
                   const rotate = (Math.random() * 16 - 8).toFixed(2);
                   return (

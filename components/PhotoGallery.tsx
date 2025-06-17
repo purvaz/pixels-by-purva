@@ -79,7 +79,7 @@ export default function PhotoGallery() {
             {/* Lightbox Overlay */}
             {selectedPhoto && photoObject && (
                 <div
-                    className="fixed inset-0 bg-black/90 z-50 px-4 flex items-center justify-center"
+                    className="fixed inset-0 bg-black/90 z-50 px-4 flex items-center justify-center overflow-hidden max-w-screen"
                     style={{ animation: "fadeIn 0.3s ease-out forwards" }}
                     onClick={() => setSelectedPhoto(null)}
                 >
@@ -97,7 +97,7 @@ export default function PhotoGallery() {
                         </div>
 
                         {/* Image */}
-                        <div className="relative w-full max-h-full">
+                        <div className="relative w-full max-w-[1000px] max-h-[80vh]">
                             <Image
                                 src={selectedPhoto}
                                 alt={photoObject.label}
