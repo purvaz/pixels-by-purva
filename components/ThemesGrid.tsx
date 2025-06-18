@@ -50,7 +50,7 @@ export default function ThemesGrid({
                         >
                             {/* Background Image */}
                             <Image
-                                src={`/images/${coverPhoto.filename}`}
+                                src={`${process.env.NEXT_PUBLIC_BASE_URL}/${coverPhoto.filename}`}
                                 alt={coverPhoto.label}
                                 fill
                                 className="object-cover object-center transition-transform duration-300 group-hover:scale-105"

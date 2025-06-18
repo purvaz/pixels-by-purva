@@ -45,7 +45,7 @@ export default function JourneysGrid({
             viewport={{ once: true, amount: 0.3 }}
           >
             <Image
-              src={`/images/${coverPhoto.filename}`}
+              src={`${process.env.NEXT_PUBLIC_BASE_URL}/${coverPhoto.filename}`}
               alt={coverPhoto.label}
               fill
               className="object-cover object-center transition-transform duration-300 group-hover:scale-105"

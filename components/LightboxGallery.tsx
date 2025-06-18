@@ -75,7 +75,7 @@ export default function LightboxGallery({
       {/* Main Image */}
       <div className="w-full max-w-5xl mb-4">
         <Image
-          src={`/images/${currentPhoto.filename}`}
+          src={`${process.env.NEXT_PUBLIC_BASE_URL}/${currentPhoto.filename}`}
           alt={currentPhoto.label}
           width={1400}
           height={900}
@@ -120,7 +120,7 @@ export default function LightboxGallery({
               style={{ width: "96px", height: "64px" }}
             >
               <Image
-                src={`/images/${img.filename}`}
+                src={`${process.env.NEXT_PUBLIC_BASE_URL}/${img.filename}`}
                 alt={img.label}
                 width={96}
                 height={64}
