@@ -2,6 +2,7 @@
 
 import Navbar from "@/components/Navbar"
 import Image from "next/image";
+import Footer from "@/components/Footer";
 
 export default function About() {
     return (
@@ -144,6 +145,7 @@ export default function About() {
                     </form>
                 </section>
             </div>
+            <Footer />
         </div>
     )
 }

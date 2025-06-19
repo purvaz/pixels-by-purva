@@ -7,6 +7,7 @@ import Image from "next/image";
 import type { PhotoMeta } from "@/types/photoMetaData";
 import LightboxGallery from "@/components/LightboxGallery";
 import { motion } from "framer-motion";
+import Footer from "./Footer";
 
 export default function JourneysGrid({
   locationCovers,
@@ -61,6 +62,7 @@ export default function JourneysGrid({
           </motion.div>
         ))}
       </section>
+      <Footer></Footer>
 
       {/* Lightbox modal */}
       {isLightboxOpen && (

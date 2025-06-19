@@ -1,9 +1,9 @@
 "use client"
 
 import Image from "next/image";
-import Link from "next/link";
 import { useState } from "react";
 import journalMetaData from "@/data/journalMetaData.json";
+import Footer from "./Footer";
 
 function StoryModal({ isOpen, onClose, story }: { isOpen: boolean; onClose: () => void; story: any }) {
   if (!isOpen || !story) return null;
@@ -55,6 +55,7 @@ export default function StoriesGrid() {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (
+    <>
     <section className="w-full max-w-7xl mx-auto px-5 py-20">
       <div className="relative grid grid-cols-1 md:grid-cols-2 gap-x-20 gap-y-28">
         {/* Vertical line between columns */}
@@ -137,5 +138,7 @@ export default function StoriesGrid() {
         story={selectedStory}
       />
     </section>
+    <Footer></Footer>
+    </>
   );
 }

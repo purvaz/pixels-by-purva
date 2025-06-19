@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import PhotoGallery from "@/components/PhotoGallery";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -19,25 +20,7 @@ export default function Home() {
       <PhotoGallery />
 
       {/* Footer containing logo and copyright */}
-      <footer className="mt-auto border-t border-black px-4 md:px-8 lg:px-10 py-4 text-sm tracking-wide text-gray-700">
-        <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-          {/* Logo */}
-          <div className="w-18 h-18">
-            <Image
-              src="/logo/logo.png" 
-              alt="Purva Zinjarde Logo"
-              width={70}
-              height={70}
-              className="object-contain"
-            />
-          </div>
-
-          {/* Text */}
-          <p className="text-center md:text-right w-full md:w-auto">
-            © Copyright of Purva Zinjarde
-          </p>
-        </div>
-      </footer>
+      <Footer></Footer>
     </div>
   );
 }

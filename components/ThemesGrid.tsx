@@ -8,6 +8,7 @@ import { PhotoMeta, Theme } from "@/types/photoMetaData";
 import LightboxGallery from "@/components/LightboxGallery";
 import { motion } from "framer-motion";
 import { Great_Vibes } from "next/font/google";
+import Footer from "./Footer";
 
 // Custom font 
 const greatVibes = Great_Vibes({
@@ -70,6 +71,7 @@ export default function ThemesGrid({
                     )
                 })}
             </section>
+            <Footer />
 
             {/* Lightbox modal */}
             {isLightboxOpen && (
