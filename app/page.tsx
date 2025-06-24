@@ -3,6 +3,7 @@
 import Navbar from "@/components/Navbar";
 import PhotoGallery from "@/components/PhotoGallery";
 import Footer from "@/components/Footer";
+import { Analytics } from "@vercel/analytics/next"
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
 
       {/* Footer containing logo and copyright */}
       <Footer></Footer>
+      <Analytics/>
     </div>
   );
 }
