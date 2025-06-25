@@ -37,7 +37,7 @@ export default function About() {
                         <div className="space-y-1">
                             <h3 className="text-xl uppercase pb-3 font-lightest tracking-widest text-gray-700">Purva Zinjarde</h3>
                             <p className="uppercase text-sm tracking-widest text-gray-500">
-                                An Amateur Photographer & Visual Storyteller based in San Francisco
+                                An Amateur Photographer &amp; Visual Storyteller based in San Francisco
                             </p>
                         </div>
 
@@ -73,7 +73,7 @@ export default function About() {
                         Loved a frame? Have a thought? I&apos;d love to hear it.
                     </h2>
                     <p className="text-center text-md text-gray-700 mt-4 italic">
-                        I read every message and I reply fast — unless I'm out taking more pictures.
+                        I read every message and I reply fast — unless I&apos;m out taking more pictures.
                     </p>
                     <p className="text-center text-md text-gray-700 mb-12 italic">Then, moderately fast.</p>
 
