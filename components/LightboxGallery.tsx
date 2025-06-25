@@ -4,7 +4,7 @@
 
 import Image from "next/image";
 import { useEffect, useState, useRef, useCallback } from "react";
-import { PhotoMeta } from "@/lib/photoMetaData";
+import { PhotoMeta } from "@/types/photoMetaData";
 
 export default function LightboxGallery({
   images,
