@@ -1,6 +1,5 @@
 // Landing page
 
-import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import PhotoGallery from "@/components/PhotoGallery";
 import Footer from "@/components/Footer";

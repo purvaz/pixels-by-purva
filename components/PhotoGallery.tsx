@@ -66,7 +66,7 @@ export default function PhotoGallery() {
                         <div className="absolute bottom-0 left-0 w-full px-4 py-2 text-white text-sm bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-center">
                             {photo.title && (
                                 <div className="text-base italic tracking-wide">
-                                    "{photo.title}"
+                                    &ldquo;{photo.title}&rdquo;
                                 </div>
                             )}
                             <div className="text-xs tracking-wider">{photo.label}</div>

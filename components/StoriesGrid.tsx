@@ -4,8 +4,9 @@ import Image from "next/image";
 import { useState } from "react";
 import journalMetaData from "@/data/journalMetaData.json";
 import Footer from "./Footer";
+import { JournalMeta } from "@/types/journalMetaData";
 
-function StoryModal({ isOpen, onClose, story }: { isOpen: boolean; onClose: () => void; story: any }) {
+function StoryModal({ isOpen, onClose, story }: { isOpen: boolean; onClose: () => void; story: JournalMeta }) {
   if (!isOpen || !story) return null;
 
   return (
@@ -51,7 +52,7 @@ function StoryModal({ isOpen, onClose, story }: { isOpen: boolean; onClose: () =
 }
 
 export default function StoriesGrid() {
-  const [selectedStory, setSelectedStory] = useState<any | null>(null);
+  const [selectedStory, setSelectedStory] = useState<JournalMeta | null>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (

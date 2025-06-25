@@ -25,7 +25,7 @@ export default function JourneysGrid({
   return (
     <>
       <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4 md:px-8 lg:px-12 pb-12">
-        {locationCovers.map(({ location, coverPhoto }, index) => (
+        {locationCovers.map(({ location, coverPhoto }) => (
           // motion div for image animation 
           <motion.div
             // image display properties

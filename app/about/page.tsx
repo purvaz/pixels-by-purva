@@ -45,19 +45,19 @@ export default function About() {
 
                         <div className="text-base leading-relaxed space-y-4 text-gray-800">
                             <p>
-                                I didn’t start with five lenses or a lifelong dream, I started with a tiny camera and the thought, “this is fun!” and that feeling stuck. Over the last eight years,
-                                I’ve pointed my camera at things that don’t speak, but somehow still say something.
+                                I didn&apos;t start with five lenses or a lifelong dream, I started with a tiny camera and the thought, “this is fun!” and that feeling stuck. Over the last eight years,
+                                I&apos;ve pointed my camera at things that don&apos;t speak, but somehow still say something.
                             </p>
                             <p>
-                                Whether I’m halfway up a mountain or spotting geometry in a quiet corner of the city,
-                                I’m just trying to do justice to the beauty in front of me.
+                                Whether I&apos;m halfway up a mountain or spotting geometry in a quiet corner of the city,
+                                I&apos;m just trying to do justice to the beauty in front of me.
                                 Basically anything that makes my heart do a little dance.
                                 My friends call me the designated trip photographer. I call it documenting joy, one frame at a time.
                             </p>
                             <p>
-                                By profession, I’m a software engineer. I’ve always wanted to build a space to share what I see with the world.
+                                By profession, I&apos;m a software engineer. I&apos;ve always wanted to build a space to share what I see with the world.
                                 So I figured, why not bring together the two things I love the most: coding and photography.
-                                I built this website as both a creative outlet and a home for the stories I’ve framed along the way.
+                                I built this website as both a creative outlet and a home for the stories I&apos;ve framed along the way.
                             </p>
                             <p>
                                 This site is a collection of the moments that made me pause, and made everyone else wait while I got the shot! Every photo here was shot on nothing fancy—just my good old iPhone 13.
@@ -70,7 +70,7 @@ export default function About() {
                 <section className="max-w-2xl mx-auto px-6 pt-16">
                     <div className="w-18 h-[1px] bg-gray-400 mx-auto mb-4" />
                     <h2 className="text-center text-sm uppercase tracking-widest text-gray-500 pt-6 mb-2">
-                        Loved a frame? Have a thought? I’d love to hear it.
+                        Loved a frame? Have a thought? I&apos;d love to hear it.
                     </h2>
                     <p className="text-center text-md text-gray-700 mt-4 italic">
                         I read every message and I reply fast — unless I'm out taking more pictures.
