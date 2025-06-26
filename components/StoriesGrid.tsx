@@ -29,9 +29,9 @@ function StoryModal({ isOpen, onClose, story }: { isOpen: boolean; onClose: () =
         <hr className="border-gray-300 mb-4" />
         <p className="text-base text-gray-900 leading-relaxed mb-8 whitespace-pre-wrap max-w-3xl mx-auto">
           <span className="text-5xl font-serif float-left leading-none mr-2 text-gray-900">
-            {story.excerpt.charAt(0)}
+            {story.blob.charAt(0)}
           </span>
-          {story.excerpt.slice(1)}
+          {story.blob.slice(1)}
         </p>
         <div className={`grid gap-4 ${story.images.length <= 2 ? 'grid-cols-1' : story.images.length <= 5 ? 'grid-cols-2' : 'grid-cols-3'}`}>
           {story.images.map((img: string, idx: number) => (

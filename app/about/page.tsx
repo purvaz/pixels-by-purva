@@ -55,12 +55,12 @@ export default function About() {
                                 My friends call me the designated trip photographer. I call it documenting joy, one frame at a time.
                             </p>
                             <p>
-                                This site is a collection of the moments that made me pause, and made everyone else wait while I got the shot!
-                            </p>
-                            <p>
                                 By profession, I’m a software engineer. I’ve always wanted to build a space to share what I see with the world.
                                 So I figured, why not bring together the two things I love the most: coding and photography.
                                 I built this website as both a creative outlet and a home for the stories I’ve framed along the way.
+                            </p>
+                            <p>
+                                This site is a collection of the moments that made me pause, and made everyone else wait while I got the shot! Every photo here was shot on nothing fancy—just my good old iPhone 13.
                             </p>
                         </div>
                     </div>
