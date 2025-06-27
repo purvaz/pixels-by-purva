@@ -97,7 +97,7 @@
   },
   {
     "filename": "BGS_03_CS_F_T.png",
-    "label": "Big Sur, California",
+    "label": "Bixby Bridge, California",
     "location": "Big Sur",
     "theme": [
       "Coastal Scenes"
@@ -301,7 +301,7 @@
   },
   {
     "filename": "COL_05_LV_F_F.png",
-    "label": "Colorado",
+    "label": "Bear Lake, Colorado",
     "location": "Colorado",
     "theme": [
       "Lakeside Views"
@@ -313,7 +313,7 @@
   },
   {
     "filename": "COL_06_LV_F_F.png",
-    "label": "Colorado",
+    "label": "Bear Lake, Colorado",
     "location": "Colorado",
     "theme": [
       "Lakeside Views"
@@ -325,7 +325,7 @@
   },
   {
     "filename": "COL_07_MV_F_F.png",
-    "label": "Colorado",
+    "label": "Paint Mines, Colorado",
     "location": "Colorado",
     "theme": [
       "Mountain Vistas"
@@ -337,7 +337,7 @@
   },
   {
     "filename": "COL_08_MV_F_F.png",
-    "label": "Colorado",
+    "label": "Garden of Gods, Colorado",
     "location": "Colorado",
     "theme": [
       "Mountain Vistas"
@@ -349,7 +349,7 @@
   },
   {
     "filename": "COL_09_MV_F_F.jpg",
-    "label": "Colorado",
+    "label": "Paint Mines, Colorado",
     "location": "Colorado",
     "theme": [
       "Mountain Vistas"
@@ -361,7 +361,7 @@
   },
   {
     "filename": "COL_10_MV_F_F.png",
-    "label": "Colorado",
+    "label": "Paint Mines, Colorado",
     "location": "Colorado",
     "theme": [
       "Mountain Vistas"
@@ -373,7 +373,7 @@
   },
   {
     "filename": "COL_11_SL_F_F.png",
-    "label": "Colorado",
+    "label": "Paint Mines, Colorado",
     "location": "Colorado",
     "theme": [
       "Scenic Landscapes"
@@ -385,7 +385,7 @@
   },
   {
     "filename": "COL_12_SL_F_F.png",
-    "label": "Colorado",
+    "label": "Aspen, Colorado",
     "location": "Colorado",
     "theme": [
       "Scenic Landscapes"
@@ -397,7 +397,7 @@
   },
   {
     "filename": "COL_13_SL_F_F.jpg",
-    "label": "Colorado",
+    "label": "Aspen, Colorado",
     "location": "Colorado",
     "theme": [
       "Scenic Landscapes"
@@ -565,7 +565,7 @@
   },
   {
     "filename": "DTH_103_DD_F_F.png",
-    "label": "Death Valley National Park, California",
+    "label": "Ubehebe Crater, Death Valley, California",
     "location": "Death Valley",
     "theme": [
       "Dust & Dunes"
@@ -589,7 +589,7 @@
   },
   {
     "filename": "DTH_105_DD_T_F.png",
-    "label": "Death Valley National Park, California",
+    "label": "Badwater Basin, Death Valley, California",
     "location": "Death Valley",
     "theme": [
       "Dust & Dunes"
@@ -601,7 +601,7 @@
   },
   {
     "filename": "DTH_106_DD_T_F.png",
-    "label": "Death Valley National Park, California",
+    "label": "Zabriske Point, Death Valley, California",
     "location": "Death Valley",
     "theme": [
       "Dust & Dunes"
@@ -613,7 +613,7 @@
   },
   {
     "filename": "DTH_107_DD_F_F.png",
-    "label": "Death Valley National Park, California",
+    "label": "Devil's Golf Course, Death Valley, California",
     "location": "Death Valley",
     "theme": [
       "Dust & Dunes"
@@ -637,7 +637,7 @@
   },
   {
     "filename": "DTH_109_CH_F_F.png",
-    "label": "Death Valley National Park, California",
+    "label": "Golden Canyon, Death Valley, California",
     "location": "Death Valley",
     "theme": [
       "Chasing Horizons"
@@ -649,7 +649,7 @@
   },
   {
     "filename": "DTH_110_CH_F_F.png",
-    "label": "Death Valley National Park, California",
+    "label": "Zabriske Point, Death Valley, California",
     "location": "Death Valley",
     "theme": [
       "Chasing Horizons"
@@ -661,7 +661,7 @@
   },
   {
     "filename": "DTH_111_DD_F_F.png",
-    "label": "Death Valley National Park, California",
+    "label": "Furnace Creek, Death Valley, California",
     "location": "Death Valley",
     "theme": [
       "Dust & Dunes"
@@ -673,7 +673,7 @@
   },
   {
     "filename": "DTH_112_DD_F_F.png",
-    "label": "Death Valley National Park, California",
+    "label": "Red Cathedral, Death Valley, California",
     "location": "Death Valley",
     "theme": [
       "Dust & Dunes"
@@ -685,7 +685,7 @@
   },
   {
     "filename": "DTH_113_DD_F_F.png",
-    "label": "Death Valley National Park, California",
+    "label": "Artist's Palette, Death Valley, California",
     "location": "Death Valley",
     "theme": [
       "Dust & Dunes"
@@ -697,7 +697,7 @@
   },
   {
     "filename": "DTH_114_DD_F_F.png",
-    "label": "Death Valley National Park, California",
+    "label": "Artist's Palette, Death Valley, California",
     "location": "Death Valley",
     "theme": [
       "Dust & Dunes"
@@ -709,7 +709,7 @@
   },
   {
     "filename": "DTH_115_DD_F_F.png",
-    "label": "Death Valley National Park, California",
+    "label": "Zabriske Point, Death Valley, California",
     "location": "Death Valley",
     "theme": [
       "Dust & Dunes"
@@ -721,7 +721,7 @@
   },
   {
     "filename": "DTH_116_DD_F_F.png",
-    "label": "Death Valley National Park, California",
+    "label": "Zabriske Point, Death Valley, California",
     "location": "Death Valley",
     "theme": [
       "Dust & Dunes"
@@ -733,7 +733,7 @@
   },
   {
     "filename": "DTH_117_DD_F_F.jpg",
-    "label": "Death Valley National Park, California",
+    "label": "Ubehebe Crater, Death Valley, California",
     "location": "Death Valley",
     "theme": [
       "Dust & Dunes"
@@ -1117,7 +1117,7 @@
   },
   {
     "filename": "HMP_03_AD_T_F.jpg",
-    "label": "Hampi, Karnataka, India",
+    "label": "Virupaksha Temple, Hampi, India",
     "location": "Hampi",
     "theme": [
       "Architectural Details"
@@ -1129,7 +1129,7 @@
   },
   {
     "filename": "HMP_04_AD_T_F.jpg",
-    "label": "Hampi, Karnataka, India",
+    "label": "Stepped Well, Hampi, India",
     "location": "Hampi",
     "theme": [
       "Architectural Details"
@@ -1141,7 +1141,7 @@
   },
   {
     "filename": "HMP_05_CH_T_F.jpg",
-    "label": "Hampi, Karnataka, India",
+    "label": "Hemakuta, Hampi, India",
     "location": "Hampi",
     "theme": [
       "Chasing Horizons"
@@ -1153,7 +1153,7 @@
   },
   {
     "filename": "HMP_06_AD_F_F.jpg",
-    "label": "Hampi, Karnataka, India",
+    "label": "Stone Chariot, Hampi, India",
     "location": "Hampi",
     "theme": [
       "Architectural Details"
@@ -1165,7 +1165,7 @@
   },
   {
     "filename": "HMP_07_AD_F_F.jpg",
-    "label": "Hampi, Karnataka, India",
+    "label": "Stone Chariot, Hampi, India",
     "location": "Hampi",
     "theme": [
       "Architectural Details"
@@ -1189,7 +1189,7 @@
   },
   {
     "filename": "HMP_09_AD_F_F.JPG",
-    "label": "Hampi, Karnataka, India",
+    "label": "Ganesha Temple, Hampi, India",
     "location": "Hampi",
     "theme": [
       "Architectural Details"
@@ -1249,7 +1249,7 @@
   },
   {
     "filename": "HMP_14_AD_T_F.jpg",
-    "label": "Hampi, Karnataka, India",
+    "label": "Narasimha Statue, Hampi, India",
     "location": "Hampi",
     "theme": [
       "Architectural Details"
@@ -1261,7 +1261,7 @@
   },
   {
     "filename": "HMP_15_AD_F_F.jpg",
-    "label": "Hampi, Karnataka, India",
+    "label": "Lotus Mahal, Hampi, India",
     "location": "Hampi",
     "theme": [
       "Architectural Details"
@@ -1285,7 +1285,7 @@
   },
   {
     "filename": "HMP_17_AD_F_F.jpg",
-    "label": "Hampi, Karnataka, India",
+    "label": "Pattadakkal, Hampi, India",
     "location": "Hampi",
     "theme": [
       "Architectural Details"
@@ -1297,7 +1297,7 @@
   },
   {
     "filename": "HMP_18_AD_F_F.jpg",
-    "label": "Hampi, Karnataka, India",
+    "label": "Pattadakkal,Hampi, India",
     "location": "Hampi",
     "theme": [
       "Architectural Details"
@@ -1309,7 +1309,7 @@
   },
   {
     "filename": "HMP_19_AD_T_F.jpg",
-    "label": "Hampi, Karnataka, India",
+    "label": "Pattadakkal, Hampi, India",
     "location": "Hampi",
     "theme": [
       "Architectural Details"
@@ -1321,7 +1321,7 @@
   },
   {
     "filename": "HMP_20_AD_F_F.jpg",
-    "label": "Hampi, Karnataka, India",
+    "label": "Pattadakkal, Hampi, India",
     "location": "Hampi",
     "theme": [
       "Architectural Details"
@@ -1369,7 +1369,7 @@
   },
   {
     "filename": "MAN_01_MV_F_F.JPG",
-    "label": "Manali, Himachal Pradesh, India",
+    "label": "Rohtang Pass, Himachal Pradesh, India",
     "location": "Manali",
     "theme": [
       "Mountain Vistas"
@@ -1381,7 +1381,7 @@
   },
   {
     "filename": "MAN_02_MV_F_F.jpg",
-    "label": "Manali, Himachal Pradesh, India",
+    "label": "Rohtang Pass, Himachal Pradesh, India",
     "location": "Manali",
     "theme": [
       "Mountain Vistas"
@@ -1393,7 +1393,7 @@
   },
   {
     "filename": "MAN_03_MV_F_F.jpg",
-    "label": "Manali, Himachal Pradesh, India",
+    "label": "Rohtang Pass, Himachal Pradesh, India",
     "location": "Manali",
     "theme": [
       "Mountain Vistas"
@@ -1405,7 +1405,7 @@
   },
   {
     "filename": "MAN_04_MV_T_F.JPG",
-    "label": "Manali, Himachal Pradesh, India",
+    "label": "Rohtang Pass, Himachal Pradesh, India",
     "location": "Manali",
     "theme": [
       "Mountain Vistas"
@@ -1501,7 +1501,7 @@
   },
   {
     "filename": "MCH_01_AD_F_F.png",
-    "label": "Michigan",
+    "label": "Mackinac Island, Michigan",
     "location": "Michigan",
     "theme": [
       "Architectural Details"
@@ -1513,7 +1513,7 @@
   },
   {
     "filename": "MCH_02_CS_F_F.png",
-    "label": "Michigan",
+    "label": "Mackinac Island, Michigan",
     "location": "Michigan",
     "theme": [
       "Coastal Scenes"
@@ -1525,7 +1525,7 @@
   },
   {
     "filename": "MCH_03_CS_T_F.png",
-    "label": "Michigan",
+    "label": "Mackinac Island, Michigan",
     "location": "Michigan",
     "theme": [
       "Coastal Scenes"
@@ -1537,7 +1537,7 @@
   },
   {
     "filename": "MCH_04_CF_F_F.png",
-    "label": "Michigan",
+    "label": "Tahquamenon Falls, Michigan",
     "location": "Michigan",
     "theme": [
       "Cascading Falls"
@@ -1549,7 +1549,7 @@
   },
   {
     "filename": "MCH_05_CF_T_F.png",
-    "label": "Michigan",
+    "label": "Tahquamenon Falls, Michigan",
     "location": "Michigan",
     "theme": [
       "Cascading Falls"
@@ -1561,7 +1561,7 @@
   },
   {
     "filename": "MCH_06_CS_T_F.png",
-    "label": "Michigan",
+    "label": "Pictured Rocks, Michigan",
     "location": "Michigan",
     "theme": [
       "Coastal Scenes"
@@ -1573,7 +1573,7 @@
   },
   {
     "filename": "MCH_07_CS_F_F.png",
-    "label": "Michigan",
+    "label": "Pictured Rocks, Michigan",
     "location": "Michigan",
     "theme": [
       "Coastal Scenes"
@@ -1585,7 +1585,7 @@
   },
   {
     "filename": "MCH_08_LV_T_T.png",
-    "label": "Michigan",
+    "label": "Kitch-iti-kipi, Michigan",
     "location": "Michigan",
     "theme": [
       "Lakeside Views"
@@ -1597,7 +1597,7 @@
   },
   {
     "filename": "MCH_09_LV_F_F.png",
-    "label": "Michigan",
+    "label": "Kitch-iti-kipi, Michigan",
     "location": "Michigan",
     "theme": [
       "Lakeside Views"
@@ -1633,7 +1633,7 @@
   },
   {
     "filename": "PIS_03_AD_F_F.png",
-    "label": "Pismo Beach, California",
+    "label": "Solvang, California",
     "location": "Pismo Beach",
     "theme": [
       "Architectural Details"
@@ -1645,7 +1645,7 @@
   },
   {
     "filename": "PIS_04_AD_F_F.jpg",
-    "label": "Pismo Beach, California",
+    "label": "Solvang, California",
     "location": "Pismo Beach",
     "theme": [
       "Architectural Details"
@@ -1777,7 +1777,7 @@
   },
   {
     "filename": "RAJ_01_AD_F_F.jpg",
-    "label": "Rajasthan, India",
+    "label": "Gulab Sagar, Rajasthan, India",
     "location": "Rajasthan",
     "theme": [
       "Architectural Details"
@@ -1789,7 +1789,7 @@
   },
   {
     "filename": "RAJ_02_AD_F_F.jpg",
-    "label": "Rajasthan, India",
+    "label": "Mehrangarh Fort, Rajasthan, India",
     "location": "Rajasthan",
     "theme": [
       "Architectural Details"
@@ -1801,7 +1801,7 @@
   },
   {
     "filename": "RAJ_03_AD_F_F.jpg",
-    "label": "Rajasthan, India",
+    "label": "Mehrangarh Fort, Rajasthan, India",
     "location": "Rajasthan",
     "theme": [
       "Architectural Details"
@@ -1813,7 +1813,7 @@
   },
   {
     "filename": "RAJ_04_AD_T_F.jpg",
-    "label": "Rajasthan, India",
+    "label": "Mehrangarh Fort, Rajasthan, India",
     "location": "Rajasthan",
     "theme": [
       "Architectural Details"
@@ -1825,7 +1825,7 @@
   },
   {
     "filename": "RAJ_05_AD_F_F.jpg",
-    "label": "Rajasthan, India",
+    "label": "Mehrangarh Fort, Rajasthan, India",
     "location": "Rajasthan",
     "theme": [
       "Architectural Details"
@@ -1837,7 +1837,7 @@
   },
   {
     "filename": "RAJ_06_LH_T_F.jpg",
-    "label": "Rajasthan, India",
+    "label": "Mehrangarh Fort, Rajasthan, India",
     "location": "Rajasthan",
     "theme": [
       "Living Heritage"
@@ -1849,7 +1849,7 @@
   },
   {
     "filename": "RAJ_07_CH_T_F.JPEG",
-    "label": "Rajasthan, India",
+    "label": "Thar Desert, Rajasthan, India",
     "location": "Rajasthan",
     "theme": [
       "Chasing Horizons"
@@ -1861,7 +1861,7 @@
   },
   {
     "filename": "RAJ_08_CH_F_F.jpg",
-    "label": "Rajasthan, India",
+    "label": "Thar Desert, Rajasthan, India",
     "location": "Rajasthan",
     "theme": [
       "Chasing Horizons"
@@ -1873,7 +1873,7 @@
   },
   {
     "filename": "RAJ_09_DD_T_F.JPEG",
-    "label": "Rajasthan, India",
+    "label": "Thar Desert, Rajasthan, India",
     "location": "Rajasthan",
     "theme": [
       "Dust & Dunes"
@@ -1885,7 +1885,7 @@
   },
   {
     "filename": "RAJ_10_AD_T_T.jpg",
-    "label": "Rajasthan, India",
+    "label": "Gad Sisar Lake, Rajasthan, India",
     "location": "Rajasthan",
     "theme": [
       "Architectural Details"
@@ -1897,7 +1897,7 @@
   },
   {
     "filename": "RAJ_11_LH_T_F.JPEG",
-    "label": "Rajasthan, India",
+    "label": "Mehrangarh Fort, Rajasthan, India",
     "location": "Rajasthan",
     "theme": [
       "Living Heritage"
@@ -1909,7 +1909,7 @@
   },
   {
     "filename": "RAJ_12_AD_F_F.jpg",
-    "label": "Rajasthan, India",
+    "label": "Jaisalmer, Rajasthan, India",
     "location": "Rajasthan",
     "theme": [
       "Architectural Details"
@@ -1921,7 +1921,7 @@
   },
   {
     "filename": "RAJ_13_LH_F_F.jpg",
-    "label": "Rajasthan, India",
+    "label": "Jaisalmer, Rajasthan, India",
     "location": "Rajasthan",
     "theme": [
       "Living Heritage"
@@ -1933,7 +1933,7 @@
   },
   {
     "filename": "RAJ_14_AD_F_F.JPEG",
-    "label": "Rajasthan, India",
+    "label": "Mehrangarh Fort, Rajasthan, India",
     "location": "Rajasthan",
     "theme": [
       "Architectural Details"
@@ -1945,7 +1945,7 @@
   },
   {
     "filename": "RAJ_15_AD_F_F.jpg",
-    "label": "Rajasthan, India",
+    "label": "Jaisalmer, Rajasthan, India",
     "location": "Rajasthan",
     "theme": [
       "Architectural Details"
@@ -1957,7 +1957,7 @@
   },
   {
     "filename": "RAJ_16_AD_F_F.JPEG",
-    "label": "Rajasthan, India",
+    "label": "Jodhpur, Rajasthan, India",
     "location": "Rajasthan",
     "theme": [
       "Architectural Details"
@@ -1969,7 +1969,7 @@
   },
   {
     "filename": "RAJ_17_AD_F_F.jpg",
-    "label": "Rajasthan, India",
+    "label": "Jodhpur, Rajasthan, India",
     "location": "Rajasthan",
     "theme": [
       "Architectural Details"
@@ -1981,7 +1981,7 @@
   },
   {
     "filename": "RAJ_18_AD_F_F.JPEG",
-    "label": "Rajasthan, India",
+    "label": "Gulab Sagar, Rajasthan, India",
     "location": "Rajasthan",
     "theme": [
       "Architectural Details"
@@ -1993,7 +1993,7 @@
   },
   {
     "filename": "RAJ_19_AD_T_F.jpg",
-    "label": "Rajasthan, India",
+    "label": "Mehrangarh Fort, Rajasthan, India",
     "location": "Rajasthan",
     "theme": [
       "Architectural Details"
@@ -2005,7 +2005,7 @@
   },
   {
     "filename": "RAJ_20_AD_F_F.JPEG",
-    "label": "Rajasthan, India",
+    "label": "Mehrangarh Fort, Rajasthan, India",
     "location": "Rajasthan",
     "theme": [
       "Architectural Details"
@@ -2017,7 +2017,7 @@
   },
   {
     "filename": "RAJ_21_AD_F_F.jpg",
-    "label": "Rajasthan, India",
+    "label": "Gad Sisar Lake, Rajasthan, India",
     "location": "Rajasthan",
     "theme": [
       "Architectural Details"
@@ -2029,7 +2029,7 @@
   },
   {
     "filename": "RAJ_22_LH_F_F.jpg",
-    "label": "Rajasthan, India",
+    "label": "Jaisalmer, Rajasthan, India",
     "location": "Rajasthan",
     "theme": [
       "Living Heritage"
@@ -2041,7 +2041,7 @@
   },
   {
     "filename": "RAJ_23_LH_F_F.jpg",
-    "label": "Rajasthan, India",
+    "label": "Jaisalmer, Rajasthan, India",
     "location": "Rajasthan",
     "theme": [
       "Living Heritage"
@@ -2053,7 +2053,7 @@
   },
   {
     "filename": "RAJ_24_LH_F_F.jpg",
-    "label": "Rajasthan, India",
+    "label": "Jaisalmer, Rajasthan, India",
     "location": "Rajasthan",
     "theme": [
       "Living Heritage"
@@ -2065,7 +2065,7 @@
   },
   {
     "filename": "RAJ_25_LH_F_F.jpg",
-    "label": "Rajasthan, India",
+    "label": "Jaisalmer, Rajasthan, India",
     "location": "Rajasthan",
     "theme": [
       "Living Heritage"
@@ -2077,7 +2077,7 @@
   },
   {
     "filename": "RAJ_26_LH_F_F.jpg",
-    "label": "Rajasthan, India",
+    "label": "Jaisalmer, Rajasthan, India",
     "location": "Rajasthan",
     "theme": [
       "Living Heritage"
@@ -2149,7 +2149,7 @@
   },
   {
     "filename": "SCZ_01_AD_T_F.png",
-    "label": "Santa Cruz, California",
+    "label": "Capitola, California",
     "location": "Santa Cruz",
     "theme": [
       "Architectural Details"
@@ -2161,7 +2161,7 @@
   },
   {
     "filename": "SCZ_02_AD_F_F.png",
-    "label": "Santa Cruz, California",
+    "label": "Capitola, California",
     "location": "Santa Cruz",
     "theme": [
       "Architectural Details"
@@ -2173,7 +2173,7 @@
   },
   {
     "filename": "SCZ_03_CS_T_F.png",
-    "label": "Santa Cruz, California",
+    "label": "Capitola, California",
     "location": "Santa Cruz",
     "theme": [
       "Coastal Scenes"
@@ -2185,7 +2185,7 @@
   },
   {
     "filename": "SCZ_04_AD_F_F.png",
-    "label": "Santa Cruz, California",
+    "label": "Capitola, California",
     "location": "Santa Cruz",
     "theme": [
       "Architectural Details"
@@ -2893,7 +2893,7 @@
   },
   {
     "filename": "SFO_30_CS_F_F.png",
-    "label": "San Francisco, California",
+    "label": "Point Reyes, California",
     "location": "San Francisco",
     "theme": [
       "Coastal Scenes"
@@ -2905,7 +2905,7 @@
   },
   {
     "filename": "SFO_31_CH_F_F.png",
-    "label": "San Francisco, California",
+    "label": "Point Reyes, California",
     "location": "San Francisco",
     "theme": [
       "Chasing Horizons"
@@ -2917,7 +2917,7 @@
   },
   {
     "filename": "SFO_32_SL_T_F.png",
-    "label": "San Francisco, California",
+    "label": "Livermore, California",
     "location": "San Francisco",
     "theme": [
       "Scenic Landscapes"
@@ -2929,7 +2929,7 @@
   },
   {
     "filename": "SFO_33_SL_F_F.png",
-    "label": "San Francisco, California",
+    "label": "Livermore, California",
     "location": "San Francisco",
     "theme": [
       "Scenic Landscapes"
@@ -2941,7 +2941,7 @@
   },
   {
     "filename": "SFO_34_SL_F_F.png",
-    "label": "San Francisco, California",
+    "label": "Livermore, California",
     "location": "San Francisco",
     "theme": [
       "Scenic Landscapes"
@@ -2953,7 +2953,7 @@
   },
   {
     "filename": "SFO_35_CS_F_F.png",
-    "label": "San Francisco, California",
+    "label": "Point Reyes, California",
     "location": "San Francisco",
     "theme": [
       "Coastal Scenes"
@@ -2965,7 +2965,7 @@
   },
   {
     "filename": "SFO_36_SL_F_F.png",
-    "label": "San Francisco, California",
+    "label": "Point Reyes, California",
     "location": "San Francisco",
     "theme": [
       "Scenic Landscapes"
@@ -2977,7 +2977,7 @@
   },
   {
     "filename": "SFO_37_SL_F_F.png",
-    "label": "San Francisco, California",
+    "label": "Point Reyes, California",
     "location": "San Francisco",
     "theme": [
       "Scenic Landscapes"
@@ -2989,7 +2989,7 @@
   },
   {
     "filename": "SFO_38_SL_F_F.png",
-    "label": "San Francisco, California",
+    "label": "Point Reyes, California",
     "location": "San Francisco",
     "theme": [
       "Scenic Landscapes"
@@ -3421,7 +3421,7 @@
   },
   {
     "filename": "TIA_01_SL_T_T.png",
-    "label": "Tioga Pass, California",
+    "label": "Tuolumne Meadows, Tioga Pass, California",
     "location": "Tioga Pass",
     "theme": [
       "Scenic Landscapes"
@@ -3433,7 +3433,7 @@
   },
   {
     "filename": "TIA_02_SL_F_F.png",
-    "label": "Tioga Pass, California",
+    "label": "Tuolumne Meadows, Tioga Pass, California",
     "location": "Tioga Pass",
     "theme": [
       "Scenic Landscapes"
@@ -3481,7 +3481,7 @@
   },
   {
     "filename": "TIA_06_MV_T_F.png",
-    "label": "Tioga Pass, California",
+    "label": "Olmsted Point, California",
     "location": "Tioga Pass",
     "theme": [
       "Mountain Vistas"
@@ -3493,7 +3493,7 @@
   },
   {
     "filename": "TIA_07_LV_F_F.png",
-    "label": "Tioga Pass, California",
+    "label": "Tioga Lake, California",
     "location": "Tioga Pass",
     "theme": [
       "Lakeside Views"
@@ -3505,7 +3505,7 @@
   },
   {
     "filename": "TIA_08_LV_F_F.png",
-    "label": "Tioga Pass, California",
+    "label": "Tioga Lake, California",
     "location": "Tioga Pass",
     "theme": [
       "Lakeside Views"
@@ -3517,7 +3517,7 @@
   },
   {
     "filename": "TIA_09_LV_F_F.png",
-    "label": "Tioga Pass, California",
+    "label": "Tenaya Lake, California",
     "location": "Tioga Pass",
     "theme": [
       "Lakeside Views"
@@ -3541,7 +3541,7 @@
   },
   {
     "filename": "TIA_11_SL_F_F.png",
-    "label": "Tioga Pass, California",
+    "label": "Tuolumne Meadows, Tioga Pass, California",
     "location": "Tioga Pass",
     "theme": [
       "Scenic Landscapes"
@@ -3553,7 +3553,7 @@
   },
   {
     "filename": "TIA_12_LV_F_F.png",
-    "label": "Tioga Pass, California",
+    "label": "Tenaya Lake, California",
     "location": "Tioga Pass",
     "theme": [
       "Lakeside Views"
@@ -3565,7 +3565,7 @@
   },
   {
     "filename": "TIA_13_LV_T_F.png",
-    "label": "Tioga Pass, California",
+    "label": "Tenaya Lake, California",
     "location": "Tioga Pass",
     "theme": [
       "Lakeside Views"
@@ -3577,7 +3577,7 @@
   },
   {
     "filename": "TIA_14_LV_T_F.png",
-    "label": "Tioga Pass, California",
+    "label": "Tenaya Lake, California",
     "location": "Tioga Pass",
     "theme": [
       "Lakeside Views"
