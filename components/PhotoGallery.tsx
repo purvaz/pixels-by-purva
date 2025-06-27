@@ -13,7 +13,7 @@ export default function PhotoGallery() {
     const dashboardPhotos = photoMetaData.filter((photo) => photo.isGallery);
 
     const photoObject = photoMetaData.find(
-        (p) => `/images/${p.filename}` === selectedPhoto
+        (p) => `${process.env.NEXT_PUBLIC_BASE_URL}/${p.filename}` === selectedPhoto
     );
 
     // Handle Escape key to close
@@ -33,7 +33,7 @@ export default function PhotoGallery() {
                     <motion.div
                         key={photo.filename}
                         className="relative group overflow-hidden rounded cursor-pointer"
-                        onClick={() => setSelectedPhoto(`/images/${photo.filename}`)}
+                        onClick={() => setSelectedPhoto(`${process.env.NEXT_PUBLIC_BASE_URL}/${photo.filename}`)}
                         initial={{ opacity: 0, y: 30 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{

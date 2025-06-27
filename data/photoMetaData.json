@@ -253,7 +253,7 @@
   },
   {
     "filename": "COL_01_MV_T_T.png",
-    "label": "Colorado",
+    "label": "Independence Pass, Colorado",
     "location": "Colorado",
     "theme": [
       "Mountain Vistas"
@@ -265,7 +265,7 @@
   },
   {
     "filename": "COL_02_MV_F_F.JPG",
-    "label": "Colorado",
+    "label": "Garden of Gods, Colorado",
     "location": "Colorado",
     "theme": [
       "Mountain Vistas"
@@ -277,7 +277,7 @@
   },
   {
     "filename": "COL_03_MV_T_F.JPG",
-    "label": "Colorado",
+    "label": "Paint Mines, Colorado",
     "location": "Colorado",
     "theme": [
       "Mountain Vistas"
@@ -289,7 +289,7 @@
   },
   {
     "filename": "COL_04_SL_T_F.png",
-    "label": "Colorado",
+    "label": "Paint Mines, Colorado",
     "location": "Colorado",
     "theme": [
       "Scenic Landscapes"
@@ -540,7 +540,7 @@
     "locationSlug": ""
   },
   {
-    "filename": "DTH_01_DD_F_F.png",
+    "filename": "DTH_101_DD_F_F.png",
     "label": "Death Valley National Park, California",
     "location": "Death Valley",
     "theme": [
@@ -552,7 +552,7 @@
     "locationSlug": ""
   },
   {
-    "filename": "DTH_02_DD_T_T.png",
+    "filename": "DTH_102_DD_T_T.png",
     "label": "Death Valley National Park, California",
     "location": "Death Valley",
     "theme": [
@@ -564,7 +564,7 @@
     "locationSlug": ""
   },
   {
-    "filename": "DTH_03_DD_F_F.png",
+    "filename": "DTH_103_DD_F_F.png",
     "label": "Death Valley National Park, California",
     "location": "Death Valley",
     "theme": [
@@ -576,8 +576,8 @@
     "locationSlug": ""
   },
   {
-    "filename": "DTH_04_DD_T_F.png",
-    "label": "Death Valley National Park, California",
+    "filename": "DTH_104_DD_T_F.png",
+    "label": "Zabriske Point, Death Valley, California",
     "location": "Death Valley",
     "theme": [
       "Dust & Dunes"
@@ -588,7 +588,7 @@
     "locationSlug": ""
   },
   {
-    "filename": "DTH_05_DD_T_F.png",
+    "filename": "DTH_105_DD_T_F.png",
     "label": "Death Valley National Park, California",
     "location": "Death Valley",
     "theme": [
@@ -600,7 +600,7 @@
     "locationSlug": ""
   },
   {
-    "filename": "DTH_06_DD_T_F.png",
+    "filename": "DTH_106_DD_T_F.png",
     "label": "Death Valley National Park, California",
     "location": "Death Valley",
     "theme": [
@@ -612,7 +612,7 @@
     "locationSlug": ""
   },
   {
-    "filename": "DTH_07_DD_F_F.png",
+    "filename": "DTH_107_DD_F_F.png",
     "label": "Death Valley National Park, California",
     "location": "Death Valley",
     "theme": [
@@ -624,7 +624,7 @@
     "locationSlug": ""
   },
   {
-    "filename": "DTH_08_CH_T_F.png",
+    "filename": "DTH_108_CH_T_F.png",
     "label": "Death Valley National Park, California",
     "location": "Death Valley",
     "theme": [
@@ -636,7 +636,7 @@
     "locationSlug": ""
   },
   {
-    "filename": "DTH_09_CH_F_F.png",
+    "filename": "DTH_109_CH_F_F.png",
     "label": "Death Valley National Park, California",
     "location": "Death Valley",
     "theme": [
@@ -648,7 +648,7 @@
     "locationSlug": ""
   },
   {
-    "filename": "DTH_10_CH_F_F.png",
+    "filename": "DTH_110_CH_F_F.png",
     "label": "Death Valley National Park, California",
     "location": "Death Valley",
     "theme": [
@@ -660,7 +660,7 @@
     "locationSlug": ""
   },
   {
-    "filename": "DTH_11_DD_F_F.png",
+    "filename": "DTH_111_DD_F_F.png",
     "label": "Death Valley National Park, California",
     "location": "Death Valley",
     "theme": [
@@ -672,7 +672,7 @@
     "locationSlug": ""
   },
   {
-    "filename": "DTH_12_DD_F_F.png",
+    "filename": "DTH_112_DD_F_F.png",
     "label": "Death Valley National Park, California",
     "location": "Death Valley",
     "theme": [
@@ -684,7 +684,7 @@
     "locationSlug": ""
   },
   {
-    "filename": "DTH_13_DD_F_F.png",
+    "filename": "DTH_113_DD_F_F.png",
     "label": "Death Valley National Park, California",
     "location": "Death Valley",
     "theme": [
@@ -696,7 +696,7 @@
     "locationSlug": ""
   },
   {
-    "filename": "DTH_14_DD_F_F.png",
+    "filename": "DTH_114_DD_F_F.png",
     "label": "Death Valley National Park, California",
     "location": "Death Valley",
     "theme": [
@@ -708,7 +708,7 @@
     "locationSlug": ""
   },
   {
-    "filename": "DTH_15_DD_F_F.png",
+    "filename": "DTH_115_DD_F_F.png",
     "label": "Death Valley National Park, California",
     "location": "Death Valley",
     "theme": [
@@ -720,7 +720,7 @@
     "locationSlug": ""
   },
   {
-    "filename": "DTH_16_DD_F_F.png",
+    "filename": "DTH_116_DD_F_F.png",
     "label": "Death Valley National Park, California",
     "location": "Death Valley",
     "theme": [
@@ -732,7 +732,7 @@
     "locationSlug": ""
   },
   {
-    "filename": "DTH_17_DD_F_F.jpg",
+    "filename": "DTH_117_DD_F_F.jpg",
     "label": "Death Valley National Park, California",
     "location": "Death Valley",
     "theme": [
@@ -744,7 +744,7 @@
     "locationSlug": ""
   },
   {
-    "filename": "DTH_18_CH_F_F.JPG",
+    "filename": "DTH_118_CH_F_F.JPG",
     "label": "Death Valley National Park, California",
     "location": "Death Valley",
     "theme": [

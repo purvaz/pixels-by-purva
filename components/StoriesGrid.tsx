@@ -37,7 +37,7 @@ function StoryModal({ isOpen, onClose, story }: { isOpen: boolean; onClose: () =
           {story.images.map((img: string, idx: number) => (
             <div key={img + idx} className="relative w-full h-60">
               <Image
-                src={`/images/${img}`}
+                src={`${process.env.NEXT_PUBLIC_BASE_URL}/${img}`}
                 alt={story.title}
                 fill
                 className="object-cover shadow-lg rounded"
@@ -92,7 +92,7 @@ export default function StoriesGrid() {
                     >
                       <div className="relative w-full h-full">
                         <Image
-                          src={`/images/${img}`}
+                          src={`${process.env.NEXT_PUBLIC_BASE_URL}/${img}`}
                           alt={journal.title}
                           fill
                           className="object-cover rounded"
