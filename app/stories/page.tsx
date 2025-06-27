@@ -1,5 +1,5 @@
 import Navbar from "@/components/Navbar"
-import StoriesGrid from "@/components/storiesGrid"
+import StoriesGrid from "@/components/StoriesGrid"
 
 export default function Stories() {
 
