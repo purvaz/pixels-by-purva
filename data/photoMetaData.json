@@ -1,329 +1,4082 @@
 [
-    {
-        "filename": "photo1.png", 
-        "label": "Tunnel View, Yosemite, California",
-        "location": "Yosemite",
-        "theme": ["Mountain Vistas"],
-        "journalSlug": "Journal entries of Yosemite.",
-        "isGallery": true
-
-    }, 
-    {
-        "filename": "photo2.png", 
-        "label": "Bridalveil Falls, Yosemite, California",
-        "title": "Veiled Flow",
-        "location": "Yosemite",
-        "theme": ["Mountain Vistas"],
-        "journalSlug": "Journal entries of Yosemite.",
-        "isGallery": false
-
-    },
-    {
-        "filename": "photo3.png", 
-        "label": "Yosemite Meadow, Yosemite, California",
-        "title": "When Color Meets Stone",
-        "location": "Yosemite",
-        "theme": ["Mountain Vistas"],
-        "journalSlug": "Journal entries of Yosemite.",
-        "isLocationCover": true,
-        "isGallery": true
-    },
-    {
-        "filename": "photo4.png", 
-        "label": "Tunnel View, Yosemite, California",
-        "location": "Yosemite",
-        "theme": ["Mountain Vistas"],
-        "journalSlug": "Journal entries of Yosemite.",
-        "isGallery": false
-
-    },
-    {
-        "filename": "photo5.png", 
-        "label": "Anchorage, Alaska",
-        "title": "Through a picture frame",
-        "location": "Alaska",
-        "theme": ["Scenic Landscapes"],
-        "journalSlug": "Journal entries of Alaska.",
-        "isGallery": true
-    }, 
-    {
-        "filename": "photo6.png", 
-        "label": "Anchorage, Alaska",
-        "title": "The Red Barn",
-        "location": "Alaska",
-        "theme": ["Scenic Landscapes"],
-        "journalSlug": "Journal entries of Alaska.",
-        "isGallery": true
-    }, 
-    {
-        "filename": "photo7.png", 
-        "label": "Aialik Glacier, Seward, Alaska",
-        "location": "Alaska",
-        "theme": ["Scenic Landscapes"],
-        "journalSlug": "Journal entries of Alaska.",
-        "isLocationCover": true,
-        "isGallery": true
-    }, 
-    {
-        "filename": "photo8.png", 
-        "label": "Aialik Glacier, Seward, Alaska",
-        "location": "Alaska",
-        "theme": ["Scenic Landscapes"],
-        "journalSlug": "Journal entries of Alaska.",
-        "isGallery": false
-    }, 
-    {
-        "filename": "photo9.png", 
-        "label": "Denali National Park, Alaska",
-        "title": "Untamed and Majestic",
-        "location": "Alaska",
-        "theme": ["Scenic Landscapes"],
-        "journalSlug": "Journal entries of Alaska.",
-        "isGallery": true
-    }, 
-    {
-        "filename": "photo10.png", 
-        "label": "Denali National Park, Alaska",
-        "location": "Alaska",
-        "theme": ["Scenic Landscapes"],
-        "journalSlug": "Journal entries of Alaska.",
-        "isGallery": false
-    }, 
-    {
-        "filename": "photo11.png", 
-        "label": "Denali National Park, Alaska",
-        "location": "Alaska",
-        "theme": ["Scenic Landscapes"],
-        "journalSlug": "Journal entries of Alaska.",
-        "isGallery": false
-    }, 
-    {
-        "filename": "photo12.png", 
-        "label": "Denali National Park, Alaska",
-        "title": "Crimson Wilderness",
-        "location": "Alaska",
-        "theme": ["Scenic Landscapes"],
-        "journalSlug": "Journal entries of Alaska.",
-        "isGallery": true
-    }, 
-    {
-        "filename": "photo13.png", 
-        "label": "Denali National Park, Alaska",
-        "location": "Alaska",
-        "theme": ["Scenic Landscapes"],
-        "journalSlug": "Journal entries of Alaska.",
-        "isGallery": true
-    }, 
-    {
-        "filename": "photo14.png", 
-        "label": "Lake Tahoe, California",
-        "title": "Blue Above, Blue Below",
-        "location": "Lake Tahoe",
-        "theme": ["Lakeside Views"],
-        "journalSlug": "Journal entries of Tahoe.",
-        "isLocationCover": true,
-        "isGallery": true
-    }, 
-    {
-        "filename": "photo15.png", 
-        "label": "Lake Tahoe, California",
-        "location": "Lake Tahoe",
-        "theme": ["Lakeside Views"],
-        "journalSlug": "Journal entries of Tahoe.",
-        "isGallery": true
-    }, 
-    {
-        "filename": "photo16.png", 
-        "label": "Death Valley, California",
-        "title": "Highway to Heat",
-        "location": "Death Valley",
-        "theme": ["Dust & Dunes"],
-        "journalSlug": "Journal entries of Death Valley.",
-        "isLocationCover": true,
-        "isGallery": true
-    }, 
-    {
-        "filename": "photo17.png", 
-        "label": "Death Valley, California",
-        "location": "Death Valley",
-        "theme": ["Dust & Dunes"],
-        "journalSlug": "Journal entries of Death Valley.",
-        "isGallery": true
-    }, 
-    {
-        "filename": "photo18.jpeg", 
-        "label": "Phuket, Thailand",
-        "location": "Thailand",
-        "theme": ["Coastal Scenes"],
-        "journalSlug": "Journal entries of Thailand.",
-        "isGallery": true
-    }, 
-    {
-        "filename": "photo19.jpeg", 
-        "label": "Bangkok, Thailand",
-        "location": "Thailand",
-        "theme": ["Architectural Details"],
-        "journalSlug": "Journal entries of Thailand.",
-        "isGallery": true
-    }, 
-    {
-        "filename": "photo20.jpeg", 
-        "label": "Krabi, Thailand",
-        "location": "Thailand",
-        "theme": ["Coastal Scenes"],
-        "journalSlug": "Journal entries of Thailand.",
-        "isGallery": true
-    }, 
-    {
-        "filename": "photo21.jpeg", 
-        "label": "Krabi, Thailand",
-        "location": "Thailand",
-        "theme": ["Coastal Scenes"],
-        "journalSlug": "Journal entries of Thailand.",
-        "isGallery": true
-    }, 
-    {
-        "filename": "photo22.jpg", 
-        "label": "Shivneri, Maharashtra, India",
-        "location": "Shivneri",
-        "theme": ["Architectural Details"],
-        "journalSlug": "Journal entries of Shivneri.",
-        "isGallery": true
-    }, 
-    {
-        "filename": "photo23.jpeg", 
-        "label": "Shivneri, Maharashtra, India",
-        "location": "Shivneri",
-        "theme": ["Scenic Landscapes"],
-        "journalSlug": "Journal entries of Shivneri.",
-        "isGallery": false
-    }, 
-    {
-        "filename": "photo24.jpg", 
-        "label": "Shivneri, Maharashtra, India",
-        "location": "Shivneri",
-        "theme": ["Architectural Details"],
-        "journalSlug": "Journal entries of Shivneri.",
-        "isGallery": true
-    }, 
-    {
-        "filename": "photo25.jpg", 
-        "label": "Shivneri, Maharashtra, India",
-        "location": "Shivneri",
-        "theme": ["Architectural Details"],
-        "journalSlug": "Journal entries of Shivneri.",
-        "isGallery": true
-    }, 
-    {
-        "filename": "photo26.jpg", 
-        "label": "Shivneri, Maharashtra, India",
-        "location": "Shivneri",
-        "theme": ["Architectural Details"],
-        "journalSlug": "Journal entries of Shivneri.",
-        "isGallery": true
-    }, 
-    {
-        "filename": "photo27.jpg", 
-        "label": "Jodhpur, Rajasthan, India",
-        "location": "Rajasthan",
-        "theme": ["Architectural Details"],
-        "journalSlug": "Journal entries of Rajasthan.",
-        "isGallery": true
-    },
-    {
-        "filename": "photo28.jpg", 
-        "label": "Jodhpur, Rajasthan, India",
-        "location": "Rajasthan",
-        "theme": ["Architectural Details"],
-        "journalSlug": "Journal entries of Rajasthan.",
-        "isGallery": true
-    },
-    {
-        "filename": "photo29.jpg", 
-        "label": "Jodhpur, Rajasthan, India",
-        "location": "Rajasthan",
-        "theme": ["Architectural Details"],
-        "journalSlug": "Journal entries of Rajasthan.",
-        "isGallery": true
-    },
-    {
-        "filename": "photo30.jpg", 
-        "label": "Jodhpur, Rajasthan, India",
-        "location": "Rajasthan",
-        "theme": ["Architectural Details"],
-        "journalSlug": "Journal entries of Rajasthan.",
-        "isGallery": true
-    },
-    {
-        "filename": "photo31.jpg", 
-        "label": "Jodhpur, Rajasthan, India",
-        "location": "Rajasthan",
-        "theme": ["Architectural Details"],
-        "journalSlug": "Journal entries of Rajasthan.",
-        "isGallery": true
-    },
-    {
-        "filename": "photo32.jpg", 
-        "label": "Jodhpur, Rajasthan, India",
-        "location": "Rajasthan",
-        "theme": ["Living Heritage"],
-        "journalSlug": "Journal entries of Rajasthan.",
-        "isGallery": true
-    },
-    {
-        "filename": "photo33.jpeg", 
-        "label": "Jaisalmer, Rajasthan, India",
-        "location": "Rajasthan",
-        "theme": ["Dust & Dunes"],
-        "journalSlug": "Journal entries of Rajasthan.",
-        "isGallery": true
-    },
-    {
-        "filename": "photo34.jpg", 
-        "label": "Jaisalmer, Rajasthan, India",
-        "location": "Rajasthan",
-        "theme": ["Dust & Dunes"],
-        "journalSlug": "Journal entries of Rajasthan.",
-        "isGallery": true
-    },
-    {
-        "filename": "photo35.jpeg", 
-        "label": "Jaisalmer, Rajasthan, India",
-        "location": "Rajasthan",
-        "theme": ["Dust & Dunes"],
-        "journalSlug": "Journal entries of Rajasthan.",
-        "isGallery": true
-    },
-    {
-        "filename": "photo36.jpg", 
-        "label": "Jaisalmer, Rajasthan, India",
-        "location": "Rajasthan",
-        "theme": ["Architectural Details"],
-        "journalSlug": "Journal entries of Rajasthan.",
-        "isGallery": false
-    },
-    {
-        "filename": "photo37.jpg", 
-        "label": "Jaisalmer, Rajasthan, India",
-        "location": "Rajasthan",
-        "theme": ["Architectural Details"],
-        "journalSlug": "Journal entries of Rajasthan.",
-        "isGallery": true
-    },
-    {
-        "filename": "photo38.jpeg", 
-        "label": "Jaisalmer, Rajasthan, India",
-        "location": "Rajasthan",
-        "theme": ["Living Heritage"],
-        "journalSlug": "Journal entries of Rajasthan.",
-        "isGallery": true
-    },
-    {
-        "filename": "photo40.jpg", 
-        "label": "Jaisalmer, Rajasthan, India",
-        "location": "Rajasthan",
-        "theme": ["Living Heritage"],
-        "journalSlug": "Journal entries of Rajasthan.",
-        "isGallery": true
-    }
+  {
+    "filename": "ANC_01_SL_T_F.png",
+    "label": "Anchorage, Alaska",
+    "location": "Alaska",
+    "theme": [
+      "Scenic Landscapes"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "The Red Barn",
+    "locationSlug": ""
+  },
+  {
+    "filename": "ANC_02_SL_F_F.png",
+    "label": "Anchorage, Alaska",
+    "location": "Alaska",
+    "theme": [
+      "Scenic Landscapes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "Through the Picture Frame",
+    "locationSlug": ""
+  },
+  {
+    "filename": "ANC_03_SL_T_F.png",
+    "label": "Anchorage, Alaska",
+    "location": "Alaska",
+    "theme": [
+      "Scenic Landscapes"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "Scarlet Showstopper",
+    "locationSlug": ""
+  },
+  {
+    "filename": "ANC_04_SL_F_F.png",
+    "label": "Anchorage, Alaska",
+    "location": "Alaska",
+    "theme": [
+      "Scenic Landscapes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "ANC_05_SL_F_F.png",
+    "label": "Anchorage, Alaska",
+    "location": "Alaska",
+    "theme": [
+      "Scenic Landscapes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "ANC_06_SL_F_F.png",
+    "label": "Anchorage, Alaska",
+    "location": "Alaska",
+    "theme": [
+      "Scenic Landscapes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "BGS_01_CS_T_F.png",
+    "label": "Big Sur, California",
+    "location": "Big Sur",
+    "theme": [
+      "Coastal Scenes"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "The Lone Warrior",
+    "locationSlug": ""
+  },
+  {
+    "filename": "BGS_02_CS_F_F.png",
+    "label": "Big Sur, California",
+    "location": "Big Sur",
+    "theme": [
+      "Coastal Scenes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "BGS_03_CS_F_T.png",
+    "label": "Big Sur, California",
+    "location": "Big Sur",
+    "theme": [
+      "Coastal Scenes"
+    ],
+    "isGallery": false,
+    "isLocationCover": true,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "BGS_04_CS_F_F.png",
+    "label": "Big Sur, California",
+    "location": "Big Sur",
+    "theme": [
+      "Coastal Scenes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "BGS_05_CS_F_F.png",
+    "label": "Big Sur, California",
+    "location": "Big Sur",
+    "theme": [
+      "Coastal Scenes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "BGS_06_CS_F_F.png",
+    "label": "Big Sur, California",
+    "location": "Big Sur",
+    "theme": [
+      "Coastal Scenes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "BGS_07_CS_T_F.png",
+    "label": "Big Sur, California",
+    "location": "Big Sur",
+    "theme": [
+      "Coastal Scenes"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "A Wave of Yellow",
+    "locationSlug": ""
+  },
+  {
+    "filename": "BGS_08_CS_F_F.png",
+    "label": "Big Sur, California",
+    "location": "Big Sur",
+    "theme": [
+      "Coastal Scenes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "BGS_09_CS_F_F.png",
+    "label": "Big Sur, California",
+    "location": "Big Sur",
+    "theme": [
+      "Coastal Scenes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "BUR_01_CF_T_T.JPG",
+    "label": "Burney Falls, California",
+    "location": "Lake Shasta & Burney Falls",
+    "theme": [
+      "Cascading Falls"
+    ],
+    "isGallery": true,
+    "isLocationCover": true,
+    "title": "Enchanted World",
+    "locationSlug": ""
+  },
+  {
+    "filename": "BUR_02_CF_F_F.png",
+    "label": "Burney Falls, California",
+    "location": "Lake Shasta & Burney Falls",
+    "theme": [
+      "Cascading Falls"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "BUR_03_CF_F_F.png",
+    "label": "Burney Falls, California",
+    "location": "Lake Shasta & Burney Falls",
+    "theme": [
+      "Cascading Falls"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "BUR_04_CF_F_F.png",
+    "label": "Burney Falls, California",
+    "location": "Lake Shasta & Burney Falls",
+    "theme": [
+      "Cascading Falls"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "BUR_05_CF_F_F.png",
+    "label": "Burney Falls, California",
+    "location": "Lake Shasta & Burney Falls",
+    "theme": [
+      "Cascading Falls"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "BUR_06_CF_F_F.png",
+    "label": "Burney Falls, California",
+    "location": "Lake Shasta & Burney Falls",
+    "theme": [
+      "Cascading Falls"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "COL_01_MV_T_T.png",
+    "label": "Colorado",
+    "location": "Colorado",
+    "theme": [
+      "Mountain Vistas"
+    ],
+    "isGallery": true,
+    "isLocationCover": true,
+    "title": "Follow the Curve",
+    "locationSlug": ""
+  },
+  {
+    "filename": "COL_02_MV_F_F.JPG",
+    "label": "Colorado",
+    "location": "Colorado",
+    "theme": [
+      "Mountain Vistas"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "COL_03_MV_T_F.JPG",
+    "label": "Colorado",
+    "location": "Colorado",
+    "theme": [
+      "Mountain Vistas"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "Painted by Wind",
+    "locationSlug": ""
+  },
+  {
+    "filename": "COL_04_SL_T_F.png",
+    "label": "Colorado",
+    "location": "Colorado",
+    "theme": [
+      "Scenic Landscapes"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "Golden Turn",
+    "locationSlug": ""
+  },
+  {
+    "filename": "COL_05_LV_F_F.png",
+    "label": "Colorado",
+    "location": "Colorado",
+    "theme": [
+      "Lakeside Views"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "COL_06_LV_F_F.png",
+    "label": "Colorado",
+    "location": "Colorado",
+    "theme": [
+      "Lakeside Views"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "COL_07_MV_F_F.png",
+    "label": "Colorado",
+    "location": "Colorado",
+    "theme": [
+      "Mountain Vistas"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "COL_08_MV_F_F.png",
+    "label": "Colorado",
+    "location": "Colorado",
+    "theme": [
+      "Mountain Vistas"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "COL_09_MV_F_F.jpg",
+    "label": "Colorado",
+    "location": "Colorado",
+    "theme": [
+      "Mountain Vistas"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "COL_10_MV_F_F.png",
+    "label": "Colorado",
+    "location": "Colorado",
+    "theme": [
+      "Mountain Vistas"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "COL_11_SL_F_F.png",
+    "label": "Colorado",
+    "location": "Colorado",
+    "theme": [
+      "Scenic Landscapes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "COL_12_SL_F_F.png",
+    "label": "Colorado",
+    "location": "Colorado",
+    "theme": [
+      "Scenic Landscapes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "COL_13_SL_F_F.jpg",
+    "label": "Colorado",
+    "location": "Colorado",
+    "theme": [
+      "Scenic Landscapes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "DEN_01_SL_T_T.png",
+    "label": "Denali National Park, Alaska",
+    "location": "Alaska",
+    "theme": [
+      "Scenic Landscapes"
+    ],
+    "isGallery": true,
+    "isLocationCover": true,
+    "title": "Untamed and Majestic",
+    "locationSlug": ""
+  },
+  {
+    "filename": "DEN_02_SL_F_F.png",
+    "label": "Denali National Park, Alaska",
+    "location": "Alaska",
+    "theme": [
+      "Scenic Landscapes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "DEN_03_SL_F_F.png",
+    "label": "Denali National Park, Alaska",
+    "location": "Alaska",
+    "theme": [
+      "Scenic Landscapes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "DEN_04_SL_T_F.png",
+    "label": "Denali National Park, Alaska",
+    "location": "Alaska",
+    "theme": [
+      "Scenic Landscapes"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "Crimson Wilderness",
+    "locationSlug": ""
+  },
+  {
+    "filename": "DEN_05_SL_F_F.png",
+    "label": "Denali National Park, Alaska",
+    "location": "Alaska",
+    "theme": [
+      "Scenic Landscapes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "DEN_06_SL_T_F.png",
+    "label": "Denali National Park, Alaska",
+    "location": "Alaska",
+    "theme": [
+      "Scenic Landscapes"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "Into the Wild",
+    "locationSlug": ""
+  },
+  {
+    "filename": "DEN_07_SL_T_F.png",
+    "label": "Denali National Park, Alaska",
+    "location": "Alaska",
+    "theme": [
+      "Scenic Landscapes"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "Emerald & Gold",
+    "locationSlug": ""
+  },
+  {
+    "filename": "DEN_08_SL_F_F.png",
+    "label": "Denali National Park, Alaska",
+    "location": "Alaska",
+    "theme": [
+      "Scenic Landscapes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "DEN_09_SL_F_F.png",
+    "label": "Denali National Park, Alaska",
+    "location": "Alaska",
+    "theme": [
+      "Scenic Landscapes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "DEN_10_SL_T_F.png",
+    "label": "Denali National Park, Alaska",
+    "location": "Alaska",
+    "theme": [
+      "Scenic Landscapes"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "Framed by Nature",
+    "locationSlug": ""
+  },
+  {
+    "filename": "DEN_11_SL_F_F.png",
+    "label": "Denali National Park, Alaska",
+    "location": "Alaska",
+    "theme": [
+      "Scenic Landscapes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "DTH_01_DD_F_F.png",
+    "label": "Death Valley National Park, California",
+    "location": "Death Valley",
+    "theme": [
+      "Dust & Dunes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "DTH_02_DD_T_T.png",
+    "label": "Death Valley National Park, California",
+    "location": "Death Valley",
+    "theme": [
+      "Dust & Dunes"
+    ],
+    "isGallery": true,
+    "isLocationCover": true,
+    "title": "Bound for Beyond",
+    "locationSlug": ""
+  },
+  {
+    "filename": "DTH_03_DD_F_F.png",
+    "label": "Death Valley National Park, California",
+    "location": "Death Valley",
+    "theme": [
+      "Dust & Dunes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "DTH_04_DD_T_F.png",
+    "label": "Death Valley National Park, California",
+    "location": "Death Valley",
+    "theme": [
+      "Dust & Dunes"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "Morning Ember",
+    "locationSlug": ""
+  },
+  {
+    "filename": "DTH_05_DD_T_F.png",
+    "label": "Death Valley National Park, California",
+    "location": "Death Valley",
+    "theme": [
+      "Dust & Dunes"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "Ethereal Plains",
+    "locationSlug": ""
+  },
+  {
+    "filename": "DTH_06_DD_T_F.png",
+    "label": "Death Valley National Park, California",
+    "location": "Death Valley",
+    "theme": [
+      "Dust & Dunes"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "Rippled Symmetry",
+    "locationSlug": ""
+  },
+  {
+    "filename": "DTH_07_DD_F_F.png",
+    "label": "Death Valley National Park, California",
+    "location": "Death Valley",
+    "theme": [
+      "Dust & Dunes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "DTH_08_CH_T_F.png",
+    "label": "Death Valley National Park, California",
+    "location": "Death Valley",
+    "theme": [
+      "Chasing Horizons"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "Miles to Go",
+    "locationSlug": ""
+  },
+  {
+    "filename": "DTH_09_CH_F_F.png",
+    "label": "Death Valley National Park, California",
+    "location": "Death Valley",
+    "theme": [
+      "Chasing Horizons"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "DTH_10_CH_F_F.png",
+    "label": "Death Valley National Park, California",
+    "location": "Death Valley",
+    "theme": [
+      "Chasing Horizons"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "DTH_11_DD_F_F.png",
+    "label": "Death Valley National Park, California",
+    "location": "Death Valley",
+    "theme": [
+      "Dust & Dunes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "DTH_12_DD_F_F.png",
+    "label": "Death Valley National Park, California",
+    "location": "Death Valley",
+    "theme": [
+      "Dust & Dunes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "DTH_13_DD_F_F.png",
+    "label": "Death Valley National Park, California",
+    "location": "Death Valley",
+    "theme": [
+      "Dust & Dunes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "DTH_14_DD_F_F.png",
+    "label": "Death Valley National Park, California",
+    "location": "Death Valley",
+    "theme": [
+      "Dust & Dunes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "DTH_15_DD_F_F.png",
+    "label": "Death Valley National Park, California",
+    "location": "Death Valley",
+    "theme": [
+      "Dust & Dunes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "DTH_16_DD_F_F.png",
+    "label": "Death Valley National Park, California",
+    "location": "Death Valley",
+    "theme": [
+      "Dust & Dunes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "DTH_17_DD_F_F.jpg",
+    "label": "Death Valley National Park, California",
+    "location": "Death Valley",
+    "theme": [
+      "Dust & Dunes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "DTH_18_CH_F_F.JPG",
+    "label": "Death Valley National Park, California",
+    "location": "Death Valley",
+    "theme": [
+      "Chasing Horizons"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "FBK_01_CH_T_T.png",
+    "label": "Fairbanks, Alaska",
+    "location": "Alaska",
+    "theme": [
+      "Chasing Horizons"
+    ],
+    "isGallery": true,
+    "isLocationCover": true,
+    "title": "Emerald Veil",
+    "locationSlug": ""
+  },
+  {
+    "filename": "FBK_02_CH_F_F.png",
+    "label": "Fairbanks, Alaska",
+    "location": "Alaska",
+    "theme": [
+      "Chasing Horizons"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "FBK_03_CH_F_F.png",
+    "label": "Fairbanks, Alaska",
+    "location": "Alaska",
+    "theme": [
+      "Chasing Horizons"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "FBK_04_CH_F_F.png",
+    "label": "Fairbanks, Alaska",
+    "location": "Alaska",
+    "theme": [
+      "Chasing Horizons"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "FLW_01_FC_T_F.jpg",
+    "label": "Amongst the Wildflowers",
+    "location": "Nature",
+    "theme": [
+      "Floral Closeups"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "Crimson Frost",
+    "locationSlug": ""
+  },
+  {
+    "filename": "FLW_02_FC_F_F.jpg",
+    "label": "Amongst the Wildflowers",
+    "location": "Nature",
+    "theme": [
+      "Floral Closeups"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "FLW_03_FC_T_F.png",
+    "label": "Amongst the Wildflowers",
+    "location": "Nature",
+    "theme": [
+      "Floral Closeups"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "Amethyst Glow",
+    "locationSlug": ""
+  },
+  {
+    "filename": "FLW_04_FC_F_F.png",
+    "label": "Amongst the Wildflowers",
+    "location": "Nature",
+    "theme": [
+      "Floral Closeups"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "FLW_05_FC_F_F.png",
+    "label": "Amongst the Wildflowers",
+    "location": "Nature",
+    "theme": [
+      "Floral Closeups"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "FLW_06_FC_F_F.png",
+    "label": "Amongst the Wildflowers",
+    "location": "Nature",
+    "theme": [
+      "Floral Closeups"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "FLW_07_FC_T_F.png",
+    "label": "Amongst the Wildflowers",
+    "location": "Nature",
+    "theme": [
+      "Floral Closeups"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "Rosy Reverie",
+    "locationSlug": ""
+  },
+  {
+    "filename": "FLW_08_FC_T_F.png",
+    "label": "Amongst the Wildflowers",
+    "location": "Nature",
+    "theme": [
+      "Floral Closeups"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "Sunset Petals",
+    "locationSlug": ""
+  },
+  {
+    "filename": "FLW_09_FC_F_F.png",
+    "label": "Amongst the Wildflowers",
+    "location": "Nature",
+    "theme": [
+      "Floral Closeups"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "FLW_10_FC_F_F.png",
+    "label": "Amongst the Wildflowers",
+    "location": "Nature",
+    "theme": [
+      "Floral Closeups"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "FLW_11_FC_F_F.png",
+    "label": "Amongst the Wildflowers",
+    "location": "Nature",
+    "theme": [
+      "Floral Closeups"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "FLW_12_FC_F_F.png",
+    "label": "Amongst the Wildflowers",
+    "location": "Nature",
+    "theme": [
+      "Floral Closeups"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "FLW_13_FC_F_F.png",
+    "label": "Amongst the Wildflowers",
+    "location": "Nature",
+    "theme": [
+      "Floral Closeups"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "FLW_14_FC_T_T.png",
+    "label": "Amongst the Wildflowers",
+    "location": "Nature",
+    "theme": [
+      "Floral Closeups"
+    ],
+    "isGallery": true,
+    "isLocationCover": true,
+    "title": "Fuchsia Frenzy",
+    "locationSlug": ""
+  },
+  {
+    "filename": "FLW_15_FC_F_F.png",
+    "label": "Amongst the Wildflowers",
+    "location": "Nature",
+    "theme": [
+      "Floral Closeups"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "FLW_16_FC_F_F.png",
+    "label": "Amongst the Wildflowers",
+    "location": "Nature",
+    "theme": [
+      "Floral Closeups"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "FLW_17_FC_F_F.png",
+    "label": "Amongst the Wildflowers",
+    "location": "Nature",
+    "theme": [
+      "Floral Closeups"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "FLW_18_FC_F_F.png",
+    "label": "Amongst the Wildflowers",
+    "location": "Nature",
+    "theme": [
+      "Floral Closeups"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "FLW_19_FC_F_F.png",
+    "label": "Amongst the Wildflowers",
+    "location": "Nature",
+    "theme": [
+      "Floral Closeups"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "FLW_20_FC_F_F.png",
+    "label": "Amongst the Wildflowers",
+    "location": "Nature",
+    "theme": [
+      "Floral Closeups"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "FLW_21_FC_F_F.png",
+    "label": "Amongst the Wildflowers",
+    "location": "Nature",
+    "theme": [
+      "Floral Closeups"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "FLW_22_FC_F_F.JPG",
+    "label": "Amongst the Wildflowers",
+    "location": "Nature",
+    "theme": [
+      "Floral Closeups"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "FLW_23_FC_F_F.png",
+    "label": "Amongst the Wildflowers",
+    "location": "Nature",
+    "theme": [
+      "Floral Closeups"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "FLW_24_FC_F_F.png",
+    "label": "Amongst the Wildflowers",
+    "location": "Nature",
+    "theme": [
+      "Floral Closeups"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "HMP_01_LV_T_T.jpg",
+    "label": "Hampi, Karnataka, India",
+    "location": "Hampi",
+    "theme": [
+      "Lakeside Views"
+    ],
+    "isGallery": true,
+    "isLocationCover": true,
+    "title": "Floating in Circles",
+    "locationSlug": ""
+  },
+  {
+    "filename": "HMP_02_AD_T_F.jpg",
+    "label": "Hampi, Karnataka, India",
+    "location": "Hampi",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "Gold on Stone",
+    "locationSlug": ""
+  },
+  {
+    "filename": "HMP_03_AD_T_F.jpg",
+    "label": "Hampi, Karnataka, India",
+    "location": "Hampi",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "Sanctum of Time",
+    "locationSlug": ""
+  },
+  {
+    "filename": "HMP_04_AD_T_F.jpg",
+    "label": "Hampi, Karnataka, India",
+    "location": "Hampi",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "Where Queens Stood",
+    "locationSlug": ""
+  },
+  {
+    "filename": "HMP_05_CH_T_F.jpg",
+    "label": "Hampi, Karnataka, India",
+    "location": "Hampi",
+    "theme": [
+      "Chasing Horizons"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "Sacred and Still",
+    "locationSlug": ""
+  },
+  {
+    "filename": "HMP_06_AD_F_F.jpg",
+    "label": "Hampi, Karnataka, India",
+    "location": "Hampi",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "HMP_07_AD_F_F.jpg",
+    "label": "Hampi, Karnataka, India",
+    "location": "Hampi",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "HMP_08_AD_F_F.jpg",
+    "label": "Hampi, Karnataka, India",
+    "location": "Hampi",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "HMP_09_AD_F_F.JPG",
+    "label": "Hampi, Karnataka, India",
+    "location": "Hampi",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "HMP_10_AD_F_F.jpg",
+    "label": "Hampi, Karnataka, India",
+    "location": "Hampi",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "HMP_11_AD_F_F.jpg",
+    "label": "Hampi, Karnataka, India",
+    "location": "Hampi",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "HMP_12_AD_F_F.jpg",
+    "label": "Hampi, Karnataka, India",
+    "location": "Hampi",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "HMP_13_AD_F_F.jpg",
+    "label": "Hampi, Karnataka, India",
+    "location": "Hampi",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "HMP_14_AD_T_F.jpg",
+    "label": "Hampi, Karnataka, India",
+    "location": "Hampi",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "Protector. Destroyer. God.",
+    "locationSlug": ""
+  },
+  {
+    "filename": "HMP_15_AD_F_F.jpg",
+    "label": "Hampi, Karnataka, India",
+    "location": "Hampi",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "HMP_16_AD_F_F.jpg",
+    "label": "Hampi, Karnataka, India",
+    "location": "Hampi",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "HMP_17_AD_F_F.jpg",
+    "label": "Hampi, Karnataka, India",
+    "location": "Hampi",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "HMP_18_AD_F_F.jpg",
+    "label": "Hampi, Karnataka, India",
+    "location": "Hampi",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "HMP_19_AD_T_F.jpg",
+    "label": "Hampi, Karnataka, India",
+    "location": "Hampi",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "Ruins and Reverence",
+    "locationSlug": ""
+  },
+  {
+    "filename": "HMP_20_AD_F_F.jpg",
+    "label": "Hampi, Karnataka, India",
+    "location": "Hampi",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "LOA_01_CS_T_T.png",
+    "label": "Los Angeles, California",
+    "location": "Los Angeles",
+    "theme": [
+      "Coastal Scenes"
+    ],
+    "isGallery": true,
+    "isLocationCover": true,
+    "title": "One Stands Still",
+    "locationSlug": ""
+  },
+  {
+    "filename": "LOA_02_AD_T_F.png",
+    "label": "Los Angeles, California",
+    "location": "Los Angeles",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "禅. Zen.",
+    "locationSlug": ""
+  },
+  {
+    "filename": "LOA_03_CS_F_F.png",
+    "label": "Los Angeles, California",
+    "location": "Los Angeles",
+    "theme": [
+      "Coastal Scenes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "MAN_01_MV_F_F.JPG",
+    "label": "Manali, Himachal Pradesh, India",
+    "location": "Manali",
+    "theme": [
+      "Mountain Vistas"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "MAN_02_MV_F_F.jpg",
+    "label": "Manali, Himachal Pradesh, India",
+    "location": "Manali",
+    "theme": [
+      "Mountain Vistas"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "MAN_03_MV_F_F.jpg",
+    "label": "Manali, Himachal Pradesh, India",
+    "location": "Manali",
+    "theme": [
+      "Mountain Vistas"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "MAN_04_MV_T_F.JPG",
+    "label": "Manali, Himachal Pradesh, India",
+    "location": "Manali",
+    "theme": [
+      "Mountain Vistas"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "Green Echo",
+    "locationSlug": ""
+  },
+  {
+    "filename": "MAN_05_VR_F_F.JPG",
+    "label": "Manali, Himachal Pradesh, India",
+    "location": "Manali",
+    "theme": [
+      "Visual Rhythm"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "MAN_06_AD_T_T.jpg",
+    "label": "Manali, Himachal Pradesh, India",
+    "location": "Manali",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": true,
+    "isLocationCover": true,
+    "title": "Om Mani Padme Hum",
+    "locationSlug": ""
+  },
+  {
+    "filename": "MAN_07_AD_T_F.jpg",
+    "label": "Manali, Himachal Pradesh, India",
+    "location": "Manali",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "Faith in Motion",
+    "locationSlug": ""
+  },
+  {
+    "filename": "MAN_08_VR_T_F.JPG",
+    "label": "Manali, Himachal Pradesh, India",
+    "location": "Manali",
+    "theme": [
+      "Visual Rhythm"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "Threaded Harmony",
+    "locationSlug": ""
+  },
+  {
+    "filename": "MAN_09_MV_F_F.jpg",
+    "label": "Manali, Himachal Pradesh, India",
+    "location": "Manali",
+    "theme": [
+      "Mountain Vistas"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "MAN_10_AD_F_F.JPG",
+    "label": "Manali, Himachal Pradesh, India",
+    "location": "Manali",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "MAN_11_VR_F_F.JPG",
+    "label": "Manali, Himachal Pradesh, India",
+    "location": "Manali",
+    "theme": [
+      "Visual Rhythm"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "MCH_01_AD_F_F.png",
+    "label": "Michigan",
+    "location": "Michigan",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "MCH_02_CS_F_F.png",
+    "label": "Michigan",
+    "location": "Michigan",
+    "theme": [
+      "Coastal Scenes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "MCH_03_CS_T_F.png",
+    "label": "Michigan",
+    "location": "Michigan",
+    "theme": [
+      "Coastal Scenes"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "One Stone More",
+    "locationSlug": ""
+  },
+  {
+    "filename": "MCH_04_CF_F_F.png",
+    "label": "Michigan",
+    "location": "Michigan",
+    "theme": [
+      "Cascading Falls"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "MCH_05_CF_T_F.png",
+    "label": "Michigan",
+    "location": "Michigan",
+    "theme": [
+      "Cascading Falls"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "Fall-en Leaf",
+    "locationSlug": ""
+  },
+  {
+    "filename": "MCH_06_CS_T_F.png",
+    "label": "Michigan",
+    "location": "Michigan",
+    "theme": [
+      "Coastal Scenes"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "Pictured Rocks",
+    "locationSlug": ""
+  },
+  {
+    "filename": "MCH_07_CS_F_F.png",
+    "label": "Michigan",
+    "location": "Michigan",
+    "theme": [
+      "Coastal Scenes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "MCH_08_LV_T_T.png",
+    "label": "Michigan",
+    "location": "Michigan",
+    "theme": [
+      "Lakeside Views"
+    ],
+    "isGallery": true,
+    "isLocationCover": true,
+    "title": "Nothing to Hide",
+    "locationSlug": ""
+  },
+  {
+    "filename": "MCH_09_LV_F_F.png",
+    "label": "Michigan",
+    "location": "Michigan",
+    "theme": [
+      "Lakeside Views"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "PIS_01_CH_F_T.png",
+    "label": "Pismo Beach, California",
+    "location": "Pismo Beach",
+    "theme": [
+      "Chasing Horizons"
+    ],
+    "isGallery": false,
+    "isLocationCover": true,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "PIS_02_CS_F_F.png",
+    "label": "Pismo Beach, California",
+    "location": "Pismo Beach",
+    "theme": [
+      "Coastal Scenes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "PIS_03_AD_F_F.png",
+    "label": "Pismo Beach, California",
+    "location": "Pismo Beach",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "PIS_04_AD_F_F.jpg",
+    "label": "Pismo Beach, California",
+    "location": "Pismo Beach",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "PRB_01_VR_T_T.png",
+    "label": "Paso Robles, California",
+    "location": "Paso Robles",
+    "theme": [
+      "Visual Rhythm"
+    ],
+    "isGallery": true,
+    "isLocationCover": true,
+    "title": "A Meadow of Light",
+    "locationSlug": ""
+  },
+  {
+    "filename": "PRB_02_VR_F_F.png",
+    "label": "Paso Robles, California",
+    "location": "Paso Robles",
+    "theme": [
+      "Visual Rhythm"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "PRB_03_VR_F_F.png",
+    "label": "Paso Robles, California",
+    "location": "Paso Robles",
+    "theme": [
+      "Visual Rhythm"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "PRB_04_VR_F_F.png",
+    "label": "Paso Robles, California",
+    "location": "Paso Robles",
+    "theme": [
+      "Visual Rhythm"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "PRB_05_VR_F_F.png",
+    "label": "Paso Robles, California",
+    "location": "Paso Robles",
+    "theme": [
+      "Visual Rhythm"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "PRB_06_VR_F_F.png",
+    "label": "Paso Robles, California",
+    "location": "Paso Robles",
+    "theme": [
+      "Visual Rhythm"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "PRB_07_VR_F_F.png",
+    "label": "Paso Robles, California",
+    "location": "Paso Robles",
+    "theme": [
+      "Visual Rhythm"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "PRB_08_VR_F_F.png",
+    "label": "Paso Robles, California",
+    "location": "Paso Robles",
+    "theme": [
+      "Visual Rhythm"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "PRB_09_VR_F_F.png",
+    "label": "Paso Robles, California",
+    "location": "Paso Robles",
+    "theme": [
+      "Visual Rhythm"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "PRB_10_VR_F_F.png",
+    "label": "Paso Robles, California",
+    "location": "Paso Robles",
+    "theme": [
+      "Visual Rhythm"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "RAJ_01_AD_F_F.jpg",
+    "label": "Rajasthan, India",
+    "location": "Rajasthan",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "RAJ_02_AD_F_F.jpg",
+    "label": "Rajasthan, India",
+    "location": "Rajasthan",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "RAJ_03_AD_F_F.jpg",
+    "label": "Rajasthan, India",
+    "location": "Rajasthan",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "RAJ_04_AD_T_F.jpg",
+    "label": "Rajasthan, India",
+    "location": "Rajasthan",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "Built to Rule",
+    "locationSlug": ""
+  },
+  {
+    "filename": "RAJ_05_AD_F_F.jpg",
+    "label": "Rajasthan, India",
+    "location": "Rajasthan",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "RAJ_06_LH_T_F.jpg",
+    "label": "Rajasthan, India",
+    "location": "Rajasthan",
+    "theme": [
+      "Living Heritage"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "Guardians of Legacy",
+    "locationSlug": ""
+  },
+  {
+    "filename": "RAJ_07_CH_T_F.JPEG",
+    "label": "Rajasthan, India",
+    "location": "Rajasthan",
+    "theme": [
+      "Chasing Horizons"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "Fading into Silence",
+    "locationSlug": ""
+  },
+  {
+    "filename": "RAJ_08_CH_F_F.jpg",
+    "label": "Rajasthan, India",
+    "location": "Rajasthan",
+    "theme": [
+      "Chasing Horizons"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "RAJ_09_DD_T_F.JPEG",
+    "label": "Rajasthan, India",
+    "location": "Rajasthan",
+    "theme": [
+      "Dust & Dunes"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "The Desert Wears a Crown",
+    "locationSlug": ""
+  },
+  {
+    "filename": "RAJ_10_AD_T_T.jpg",
+    "label": "Rajasthan, India",
+    "location": "Rajasthan",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": true,
+    "isLocationCover": true,
+    "title": "Floating Through Time",
+    "locationSlug": ""
+  },
+  {
+    "filename": "RAJ_11_LH_T_F.JPEG",
+    "label": "Rajasthan, India",
+    "location": "Rajasthan",
+    "theme": [
+      "Living Heritage"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "Faces of Folklore",
+    "locationSlug": ""
+  },
+  {
+    "filename": "RAJ_12_AD_F_F.jpg",
+    "label": "Rajasthan, India",
+    "location": "Rajasthan",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "RAJ_13_LH_F_F.jpg",
+    "label": "Rajasthan, India",
+    "location": "Rajasthan",
+    "theme": [
+      "Living Heritage"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "RAJ_14_AD_F_F.JPEG",
+    "label": "Rajasthan, India",
+    "location": "Rajasthan",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "RAJ_15_AD_F_F.jpg",
+    "label": "Rajasthan, India",
+    "location": "Rajasthan",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "RAJ_16_AD_F_F.JPEG",
+    "label": "Rajasthan, India",
+    "location": "Rajasthan",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "RAJ_17_AD_F_F.jpg",
+    "label": "Rajasthan, India",
+    "location": "Rajasthan",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "RAJ_18_AD_F_F.JPEG",
+    "label": "Rajasthan, India",
+    "location": "Rajasthan",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "RAJ_19_AD_T_F.jpg",
+    "label": "Rajasthan, India",
+    "location": "Rajasthan",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "Towering Over Us",
+    "locationSlug": ""
+  },
+  {
+    "filename": "RAJ_20_AD_F_F.JPEG",
+    "label": "Rajasthan, India",
+    "location": "Rajasthan",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "RAJ_21_AD_F_F.jpg",
+    "label": "Rajasthan, India",
+    "location": "Rajasthan",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "RAJ_22_LH_F_F.jpg",
+    "label": "Rajasthan, India",
+    "location": "Rajasthan",
+    "theme": [
+      "Living Heritage"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "RAJ_23_LH_F_F.jpg",
+    "label": "Rajasthan, India",
+    "location": "Rajasthan",
+    "theme": [
+      "Living Heritage"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "RAJ_24_LH_F_F.jpg",
+    "label": "Rajasthan, India",
+    "location": "Rajasthan",
+    "theme": [
+      "Living Heritage"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "RAJ_25_LH_F_F.jpg",
+    "label": "Rajasthan, India",
+    "location": "Rajasthan",
+    "theme": [
+      "Living Heritage"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "RAJ_26_LH_F_F.jpg",
+    "label": "Rajasthan, India",
+    "location": "Rajasthan",
+    "theme": [
+      "Living Heritage"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SBR_01_AD_F_F.png",
+    "label": "Santa Barbara, California",
+    "location": "Santa Barbara",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SBR_02_AD_F_T.png",
+    "label": "Santa Barbara, California",
+    "location": "Santa Barbara",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": false,
+    "isLocationCover": true,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SBR_03_AD_F_F.png",
+    "label": "Santa Barbara, California",
+    "location": "Santa Barbara",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SBR_04_CS_F_F.png",
+    "label": "Santa Barbara, California",
+    "location": "Santa Barbara",
+    "theme": [
+      "Coastal Scenes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SBR_05_FC_F_F.png",
+    "label": "Santa Barbara, California",
+    "location": "Santa Barbara",
+    "theme": [
+      "Floral Closeups"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SCZ_01_AD_T_F.png",
+    "label": "Santa Cruz, California",
+    "location": "Santa Cruz",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "Paintbox by the Sea",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SCZ_02_AD_F_F.png",
+    "label": "Santa Cruz, California",
+    "location": "Santa Cruz",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SCZ_03_CS_T_F.png",
+    "label": "Santa Cruz, California",
+    "location": "Santa Cruz",
+    "theme": [
+      "Coastal Scenes"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "Color Coded",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SCZ_04_AD_F_F.png",
+    "label": "Santa Cruz, California",
+    "location": "Santa Cruz",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SCZ_05_CS_F_F.png",
+    "label": "Santa Cruz, California",
+    "location": "Santa Cruz",
+    "theme": [
+      "Coastal Scenes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SCZ_06_CS_F_F.png",
+    "label": "Santa Cruz, California",
+    "location": "Santa Cruz",
+    "theme": [
+      "Coastal Scenes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SDG_01_CS_F_T.png",
+    "label": "San Diego, California",
+    "location": "San Diego",
+    "theme": [
+      "Coastal Scenes"
+    ],
+    "isGallery": false,
+    "isLocationCover": true,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SDG_02_CS_F_F.png",
+    "label": "San Diego, California",
+    "location": "San Diego",
+    "theme": [
+      "Coastal Scenes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SDG_03_AD_F_F.png",
+    "label": "San Diego, California",
+    "location": "San Diego",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SDG_04_CS_F_F.png",
+    "label": "San Diego, California",
+    "location": "San Diego",
+    "theme": [
+      "Coastal Scenes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SDG_05_CS_F_F.png",
+    "label": "San Diego, California",
+    "location": "San Diego",
+    "theme": [
+      "Coastal Scenes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SDG_06_CS_F_F.png",
+    "label": "San Diego, California",
+    "location": "San Diego",
+    "theme": [
+      "Coastal Scenes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SDG_07_CS_F_F.png",
+    "label": "San Diego, California",
+    "location": "San Diego",
+    "theme": [
+      "Coastal Scenes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SDG_08_CS_F_F.png",
+    "label": "San Diego, California",
+    "location": "San Diego",
+    "theme": [
+      "Coastal Scenes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SEA_01_CC_F_T.png",
+    "label": "Seattle, Washington",
+    "location": "Seattle",
+    "theme": [
+      "Cityscapes"
+    ],
+    "isGallery": false,
+    "isLocationCover": true,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SEA_02_AD_F_F.png",
+    "label": "Seattle, Washington",
+    "location": "Seattle",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SEA_03_CC_F_F.png",
+    "label": "Seattle, Washington",
+    "location": "Seattle",
+    "theme": [
+      "Cityscapes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SEA_04_CC_F_F.png",
+    "label": "Seattle, Washington",
+    "location": "Seattle",
+    "theme": [
+      "Cityscapes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SEA_05_CC_T_F.png",
+    "label": "Seattle, Washington",
+    "location": "Seattle",
+    "theme": [
+      "Cityscapes"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "Still and Steel",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SEA_06_CC_F_F.png",
+    "label": "Seattle, Washington",
+    "location": "Seattle",
+    "theme": [
+      "Cityscapes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SEA_07_VR_T_F.png",
+    "label": "Seattle, Washington",
+    "location": "Seattle",
+    "theme": [
+      "Visual Rhythm"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "Glassy Blossoms",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SEA_08_VR_F_F.png",
+    "label": "Seattle, Washington",
+    "location": "Seattle",
+    "theme": [
+      "Visual Rhythm"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SEA_09_VR_F_F.png",
+    "label": "Seattle, Washington",
+    "location": "Seattle",
+    "theme": [
+      "Visual Rhythm"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SEA_10_VR_F_F.png",
+    "label": "Seattle, Washington",
+    "location": "Seattle",
+    "theme": [
+      "Visual Rhythm"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SEA_11_VR_F_F.png",
+    "label": "Seattle, Washington",
+    "location": "Seattle",
+    "theme": [
+      "Visual Rhythm"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SEA_12_VR_F_F.png",
+    "label": "Seattle, Washington",
+    "location": "Seattle",
+    "theme": [
+      "Visual Rhythm"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SEA_13_VR_F_Fpng.png",
+    "label": "Seattle, Washington",
+    "location": "Seattle",
+    "theme": [
+      "Visual Rhythm"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SEA_14_VR_F_F.png",
+    "label": "Seattle, Washington",
+    "location": "Seattle",
+    "theme": [
+      "Visual Rhythm"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SEW_01_MV_T_F.png",
+    "label": "Seward, Alaska",
+    "location": "Alaska",
+    "theme": [
+      "Mountain Vistas"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "Spirit of Adventure",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SEW_02_MV_T_F.png",
+    "label": "Seward, Alaska",
+    "location": "Alaska",
+    "theme": [
+      "Mountain Vistas"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "An Ice Wall",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SEW_03_MV_F_F.png",
+    "label": "Seward, Alaska",
+    "location": "Alaska",
+    "theme": [
+      "Mountain Vistas"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SEW_04_MV_F_F.png",
+    "label": "Seward, Alaska",
+    "location": "Alaska",
+    "theme": [
+      "Mountain Vistas"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SEW_05_MV_F_F.png",
+    "label": "Seward, Alaska",
+    "location": "Alaska",
+    "theme": [
+      "Mountain Vistas"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SFO_01_AD_T_T.png",
+    "label": "San Francisco, California",
+    "location": "San Francisco",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": true,
+    "isLocationCover": true,
+    "title": "Red Meets Blue",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SFO_02_AD_F_F.png",
+    "label": "San Francisco, California",
+    "location": "San Francisco",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SFO_03_AD_F_F.png",
+    "label": "San Francisco, California",
+    "location": "San Francisco",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SFO_04_AD_F_F.png",
+    "label": "San Francisco, California",
+    "location": "San Francisco",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SFO_05_CC_T_F.png",
+    "label": "San Francisco, California",
+    "location": "San Francisco",
+    "theme": [
+      "Cityscapes"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "Skyline of Startups",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SFO_06_CC_F_F.png",
+    "label": "San Francisco, California",
+    "location": "San Francisco",
+    "theme": [
+      "Cityscapes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SFO_07_CH_T_F.png",
+    "label": "San Francisco, California",
+    "location": "San Francisco",
+    "theme": [
+      "Chasing Horizons"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "Ink and Ember",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SFO_08_CH_F_F.png",
+    "label": "San Francisco, California",
+    "location": "San Francisco",
+    "theme": [
+      "Chasing Horizons"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SFO_09_CH_F_F.png",
+    "label": "San Francisco, California",
+    "location": "San Francisco",
+    "theme": [
+      "Chasing Horizons"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SFO_10_CH_T_F.png",
+    "label": "San Francisco, California",
+    "location": "San Francisco",
+    "theme": [
+      "Chasing Horizons"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "Feathers & Flame",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SFO_11_CH_F_F.png",
+    "label": "San Francisco, California",
+    "location": "San Francisco",
+    "theme": [
+      "Chasing Horizons"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SFO_12_CH_F_F.png",
+    "label": "San Francisco, California",
+    "location": "San Francisco",
+    "theme": [
+      "Chasing Horizons"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SFO_13_CH_F_F.png",
+    "label": "San Francisco, California",
+    "location": "San Francisco",
+    "theme": [
+      "Chasing Horizons"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SFO_14_CH_T_F.png",
+    "label": "San Francisco, California",
+    "location": "San Francisco",
+    "theme": [
+      "Chasing Horizons"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "Ocean Ablaze",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SFO_15_CS_F_F.png",
+    "label": "San Francisco, California",
+    "location": "San Francisco",
+    "theme": [
+      "Coastal Scenes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SFO_16_AD_F_F.png",
+    "label": "San Francisco, California",
+    "location": "San Francisco",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SFO_17_AD_F_F.png",
+    "label": "San Francisco, California",
+    "location": "San Francisco",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SFO_18_AD_F_F.png",
+    "label": "San Francisco, California",
+    "location": "San Francisco",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SFO_19_AD_F_F.png",
+    "label": "San Francisco, California",
+    "location": "San Francisco",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SFO_20_AD_F_F.png",
+    "label": "San Francisco, California",
+    "location": "San Francisco",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SFO_21_AD_F_F.png",
+    "label": "San Francisco, California",
+    "location": "San Francisco",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SFO_22_AD_F_F.png",
+    "label": "San Francisco, California",
+    "location": "San Francisco",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SFO_23_VR_F_F.png",
+    "label": "San Francisco, California",
+    "location": "San Francisco",
+    "theme": [
+      "Visual Rhythm"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SFO_24_VR_F_F.png",
+    "label": "San Francisco, California",
+    "location": "San Francisco",
+    "theme": [
+      "Visual Rhythm"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SFO_25_AD_F_F.png",
+    "label": "San Francisco, California",
+    "location": "San Francisco",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SFO_26_AD_F_F.png",
+    "label": "San Francisco, California",
+    "location": "San Francisco",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SFO_27_AD_F_F.png",
+    "label": "San Francisco, California",
+    "location": "San Francisco",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SFO_28_CS_F_F.png",
+    "label": "San Francisco, California",
+    "location": "San Francisco",
+    "theme": [
+      "Coastal Scenes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SFO_29_AD_F_F.png",
+    "label": "San Francisco, California",
+    "location": "San Francisco",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SFO_30_CS_F_F.png",
+    "label": "San Francisco, California",
+    "location": "San Francisco",
+    "theme": [
+      "Coastal Scenes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SFO_31_CH_F_F.png",
+    "label": "San Francisco, California",
+    "location": "San Francisco",
+    "theme": [
+      "Chasing Horizons"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SFO_32_SL_T_F.png",
+    "label": "San Francisco, California",
+    "location": "San Francisco",
+    "theme": [
+      "Scenic Landscapes"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "Verdant Flows",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SFO_33_SL_F_F.png",
+    "label": "San Francisco, California",
+    "location": "San Francisco",
+    "theme": [
+      "Scenic Landscapes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SFO_34_SL_F_F.png",
+    "label": "San Francisco, California",
+    "location": "San Francisco",
+    "theme": [
+      "Scenic Landscapes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SFO_35_CS_F_F.png",
+    "label": "San Francisco, California",
+    "location": "San Francisco",
+    "theme": [
+      "Coastal Scenes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SFO_36_SL_F_F.png",
+    "label": "San Francisco, California",
+    "location": "San Francisco",
+    "theme": [
+      "Scenic Landscapes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SFO_37_SL_F_F.png",
+    "label": "San Francisco, California",
+    "location": "San Francisco",
+    "theme": [
+      "Scenic Landscapes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SFO_38_SL_F_F.png",
+    "label": "San Francisco, California",
+    "location": "San Francisco",
+    "theme": [
+      "Scenic Landscapes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SFO_39_CH_F_F.png",
+    "label": "San Francisco, California",
+    "location": "San Francisco",
+    "theme": [
+      "Chasing Horizons"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SHA_01_LV_F_F.png",
+    "label": "Lake Shasta, California",
+    "location": "Lake Shasta & Burney Falls",
+    "theme": [
+      "Lakeside Views"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SHA_02_LV_T_T.png",
+    "label": "Lake Shasta, California",
+    "location": "Lake Shasta & Burney Falls",
+    "theme": [
+      "Lakeside Views"
+    ],
+    "isGallery": true,
+    "isLocationCover": true,
+    "title": "Crowned in White",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SHA_03_MV_F_F.png",
+    "label": "Lake Shasta, California",
+    "location": "Lake Shasta & Burney Falls",
+    "theme": [
+      "Mountain Vistas"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SHA_04_LV_F_F.jpg",
+    "label": "Lake Shasta, California",
+    "location": "Lake Shasta & Burney Falls",
+    "theme": [
+      "Lakeside Views"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SHA_06_SL_F_F.png",
+    "label": "Lake Shasta, California",
+    "location": "Lake Shasta & Burney Falls",
+    "theme": [
+      "Scenic Landscapes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SHV_01_AD_T_F.jpg",
+    "label": "Shivneri, Maharashtra, India",
+    "location": "Shivneri",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "Lone Post",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SHV_02_SL_F_F.JPEG",
+    "label": "Shivneri, Maharashtra, India",
+    "location": "Shivneri",
+    "theme": [
+      "Scenic Landscapes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SHV_03_AD_T_F.jpg",
+    "label": "Shivneri, Maharashtra, India",
+    "location": "Shivneri",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "Faded Fortitude",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SHV_04_AD_F_F.jpg",
+    "label": "Shivneri, Maharashtra, India",
+    "location": "Shivneri",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "SHV_05_AD_T_F.jpg",
+    "label": "Shivneri, Maharashtra, India",
+    "location": "Shivneri",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "Arches of Royalty",
+    "locationSlug": ""
+  },
+  {
+    "filename": "TAH_01_LV_T_T.png",
+    "label": "Lake Tahoe, California",
+    "location": "Lake Tahoe",
+    "theme": [
+      "Lakeside Views"
+    ],
+    "isGallery": true,
+    "isLocationCover": true,
+    "title": "Blue Above, Blue Below",
+    "locationSlug": ""
+  },
+  {
+    "filename": "TAH_02_LV_T_F.png",
+    "label": "Lake Tahoe, California",
+    "location": "Lake Tahoe",
+    "theme": [
+      "Lakeside Views"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "Evergreen Embrace",
+    "locationSlug": ""
+  },
+  {
+    "filename": "TAH_03_CH_F_F.png",
+    "label": "Lake Tahoe, California",
+    "location": "Lake Tahoe",
+    "theme": [
+      "Chasing Horizons"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "TAH_04_LV_F_F.png",
+    "label": "Lake Tahoe, California",
+    "location": "Lake Tahoe",
+    "theme": [
+      "Lakeside Views"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "TAH_05_LV_T_F.png",
+    "label": "Lake Tahoe, California",
+    "location": "Lake Tahoe",
+    "theme": [
+      "Lakeside Views"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "The Speckled Blue",
+    "locationSlug": ""
+  },
+  {
+    "filename": "TAH_06_LV_F_F.png",
+    "label": "Lake Tahoe, California",
+    "location": "Lake Tahoe",
+    "theme": [
+      "Lakeside Views"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "TAH_07_LV_F_F.png",
+    "label": "Lake Tahoe, California",
+    "location": "Lake Tahoe",
+    "theme": [
+      "Lakeside Views"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "TAH_08_LV_F_F.png",
+    "label": "Lake Tahoe, California",
+    "location": "Lake Tahoe",
+    "theme": [
+      "Lakeside Views"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "TAH_09_LV_F_F.png",
+    "label": "Lake Tahoe, California",
+    "location": "Lake Tahoe",
+    "theme": [
+      "Lakeside Views"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "TAH_10_LV_F_F.png",
+    "label": "Lake Tahoe, California",
+    "location": "Lake Tahoe",
+    "theme": [
+      "Lakeside Views"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "TAH_11_LV_F_F.png",
+    "label": "Lake Tahoe, California",
+    "location": "Lake Tahoe",
+    "theme": [
+      "Lakeside Views"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "TAH_12_LV_T_F.png",
+    "label": "Lake Tahoe, California",
+    "location": "Lake Tahoe",
+    "theme": [
+      "Lakeside Views"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "Twisted Survivor",
+    "locationSlug": ""
+  },
+  {
+    "filename": "TAH_13_LV_F_F.png",
+    "label": "Lake Tahoe, California",
+    "location": "Lake Tahoe",
+    "theme": [
+      "Lakeside Views"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "TAH_14_LV_F_F.png",
+    "label": "Lake Tahoe, California",
+    "location": "Lake Tahoe",
+    "theme": [
+      "Lakeside Views"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "TAH_15_LV_F_F.png",
+    "label": "Lake Tahoe, California",
+    "location": "Lake Tahoe",
+    "theme": [
+      "Lakeside Views"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "TAH_16_LV_T_F.png",
+    "label": "Lake Tahoe, California",
+    "location": "Lake Tahoe",
+    "theme": [
+      "Lakeside Views"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "Mirror, Mirror",
+    "locationSlug": ""
+  },
+  {
+    "filename": "TAH_17_LV_F_F.png",
+    "label": "Lake Tahoe, California",
+    "location": "Lake Tahoe",
+    "theme": [
+      "Lakeside Views"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "TAH_18_CH_T_F.png",
+    "label": "Lake Tahoe, California",
+    "location": "Lake Tahoe",
+    "theme": [
+      "Chasing Horizons"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "Sapphire Awakening",
+    "locationSlug": ""
+  },
+  {
+    "filename": "TAH_19_LV_F_F.png",
+    "label": "Lake Tahoe, California",
+    "location": "Lake Tahoe",
+    "theme": [
+      "Lakeside Views"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "TAH_20_LV_F_F.png",
+    "label": "Lake Tahoe, California",
+    "location": "Lake Tahoe",
+    "theme": [
+      "Lakeside Views"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "THL_01_CS_T_F.JPEG",
+    "label": "Phuket, Thailand",
+    "location": "Thailand",
+    "theme": [
+      "Coastal Scenes"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "Rainbow in the Sea",
+    "locationSlug": ""
+  },
+  {
+    "filename": "THL_02_CS_T_T.JPEG",
+    "label": "Bangkok, Thailand",
+    "location": "Thailand",
+    "theme": [
+      "Coastal Scenes"
+    ],
+    "isGallery": true,
+    "isLocationCover": true,
+    "title": "Stilled Devotion",
+    "locationSlug": ""
+  },
+  {
+    "filename": "THL_03_CS_T_F.JPEG",
+    "label": "Phuket, Thailand",
+    "location": "Thailand",
+    "theme": [
+      "Coastal Scenes"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "A Cerulean Lullaby",
+    "locationSlug": ""
+  },
+  {
+    "filename": "THL_04_CH_T_F.JPEG",
+    "label": "Krabi, Thailand",
+    "location": "Thailand",
+    "theme": [
+      "Chasing Horizons"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "Molten Dusk",
+    "locationSlug": ""
+  },
+  {
+    "filename": "TIA_01_SL_T_T.png",
+    "label": "Tioga Pass, California",
+    "location": "Tioga Pass",
+    "theme": [
+      "Scenic Landscapes"
+    ],
+    "isGallery": true,
+    "isLocationCover": true,
+    "title": "Meadow Mood",
+    "locationSlug": ""
+  },
+  {
+    "filename": "TIA_02_SL_F_F.png",
+    "label": "Tioga Pass, California",
+    "location": "Tioga Pass",
+    "theme": [
+      "Scenic Landscapes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "TIA_03_SL_F_F.png",
+    "label": "Tioga Pass, California",
+    "location": "Tioga Pass",
+    "theme": [
+      "Scenic Landscapes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "TIA_04_SL_T_F.png",
+    "label": "Tioga Pass, California",
+    "location": "Tioga Pass",
+    "theme": [
+      "Scenic Landscapes"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "A Thread of Blue",
+    "locationSlug": ""
+  },
+  {
+    "filename": "TIA_05_SL_F_F.png",
+    "label": "Tioga Pass, California",
+    "location": "Tioga Pass",
+    "theme": [
+      "Scenic Landscapes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "TIA_06_MV_T_F.png",
+    "label": "Tioga Pass, California",
+    "location": "Tioga Pass",
+    "theme": [
+      "Mountain Vistas"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "Probably Mars!",
+    "locationSlug": ""
+  },
+  {
+    "filename": "TIA_07_LV_F_F.png",
+    "label": "Tioga Pass, California",
+    "location": "Tioga Pass",
+    "theme": [
+      "Lakeside Views"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "TIA_08_LV_F_F.png",
+    "label": "Tioga Pass, California",
+    "location": "Tioga Pass",
+    "theme": [
+      "Lakeside Views"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "TIA_09_LV_F_F.png",
+    "label": "Tioga Pass, California",
+    "location": "Tioga Pass",
+    "theme": [
+      "Lakeside Views"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "TIA_10_SL_F_F.png",
+    "label": "Tioga Pass, California",
+    "location": "Tioga Pass",
+    "theme": [
+      "Scenic Landscapes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "TIA_11_SL_F_F.png",
+    "label": "Tioga Pass, California",
+    "location": "Tioga Pass",
+    "theme": [
+      "Scenic Landscapes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "TIA_12_LV_F_F.png",
+    "label": "Tioga Pass, California",
+    "location": "Tioga Pass",
+    "theme": [
+      "Lakeside Views"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "TIA_13_LV_T_F.png",
+    "label": "Tioga Pass, California",
+    "location": "Tioga Pass",
+    "theme": [
+      "Lakeside Views"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "Shimmer and Stone",
+    "locationSlug": ""
+  },
+  {
+    "filename": "TIA_14_LV_T_F.png",
+    "label": "Tioga Pass, California",
+    "location": "Tioga Pass",
+    "theme": [
+      "Lakeside Views"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "In Line for Adventure",
+    "locationSlug": ""
+  },
+  {
+    "filename": "TIA_15_SL_F_F.png",
+    "label": "Tioga Pass, California",
+    "location": "Tioga Pass",
+    "theme": [
+      "Scenic Landscapes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "TIA_16_SL_F_F.png",
+    "label": "Tioga Pass, California",
+    "location": "Tioga Pass",
+    "theme": [
+      "Scenic Landscapes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "TIA_17_SL_T_F.png",
+    "label": "Tioga Pass, California",
+    "location": "Tioga Pass",
+    "theme": [
+      "Scenic Landscapes"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "A Silent Standoff",
+    "locationSlug": ""
+  },
+  {
+    "filename": "VAD_01_AD_T_T.png",
+    "label": "Vadodara, Gujarat, India",
+    "location": "Vadodara",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": true,
+    "isLocationCover": true,
+    "title": "A Divine Glow",
+    "locationSlug": ""
+  },
+  {
+    "filename": "VAD_02_AD_F_F.png",
+    "label": "Vadodara, Gujarat, India",
+    "location": "Vadodara",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "VAD_03_AD_T_F.png",
+    "label": "Vadodara, Gujarat, India",
+    "location": "Vadodara",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "Ethereal Lights",
+    "locationSlug": ""
+  },
+  {
+    "filename": "VAD_04_AD_F_F.png",
+    "label": "Vadodara, Gujarat, India",
+    "location": "Vadodara",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "VAD_05_AD_F_F.png",
+    "label": "Vadodara, Gujarat, India",
+    "location": "Vadodara",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "VAD_06_AD_F_F.png",
+    "label": "Vadodara, Gujarat, India",
+    "location": "Vadodara",
+    "theme": [
+      "Architectural Details"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "YOS_01_MV_T_F.png",
+    "label": "Yosemite Valley, California",
+    "location": "Yosemite",
+    "theme": [
+      "Mountain Vistas"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "The Veiled Giants",
+    "locationSlug": ""
+  },
+  {
+    "filename": "YOS_02_CF_T_F.png",
+    "label": "Yosemite Valley, California",
+    "location": "Yosemite",
+    "theme": [
+      "Cascading Falls"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "Veiled Flow",
+    "locationSlug": ""
+  },
+  {
+    "filename": "YOS_03_MV_T_T.png",
+    "label": "Yosemite Valley, California",
+    "location": "Yosemite",
+    "theme": [
+      "Mountain Vistas"
+    ],
+    "isGallery": true,
+    "isLocationCover": true,
+    "title": "When Color Meets Stone",
+    "locationSlug": ""
+  },
+  {
+    "filename": "YOS_04_MV_T_F.png",
+    "label": "Yosemite Valley, California",
+    "location": "Yosemite",
+    "theme": [
+      "Mountain Vistas"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "The Ashen Canopy",
+    "locationSlug": ""
+  },
+  {
+    "filename": "YOS_05_SL_F_F.jpg",
+    "label": "Yosemite Valley, California",
+    "location": "Yosemite",
+    "theme": [
+      "Scenic Landscapes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "YOS_06_SL_F_F.jpg",
+    "label": "Yosemite Valley, California",
+    "location": "Yosemite",
+    "theme": [
+      "Scenic Landscapes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "YOS_07_CF_T_F.png",
+    "label": "Yosemite Valley, California",
+    "location": "Yosemite",
+    "theme": [
+      "Cascading Falls"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "The Veins of Stone",
+    "locationSlug": ""
+  },
+  {
+    "filename": "YOS_08_CF_F_F.png",
+    "label": "Yosemite Valley, California",
+    "location": "Yosemite",
+    "theme": [
+      "Cascading Falls"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "YOS_09_CF_F_F.png",
+    "label": "Yosemite Valley, California",
+    "location": "Yosemite",
+    "theme": [
+      "Cascading Falls"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "YOS_10_SL_F_F.png",
+    "label": "Yosemite Valley, California",
+    "location": "Yosemite",
+    "theme": [
+      "Scenic Landscapes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "YOS_12_LV_F_F.png",
+    "label": "Yosemite Valley, California",
+    "location": "Yosemite",
+    "theme": [
+      "Lakeside Views"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "YOS_13_SL_F_F.png",
+    "label": "Yosemite Valley, California",
+    "location": "Yosemite",
+    "theme": [
+      "Scenic Landscapes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "YOS_14_SL_F_F.png",
+    "label": "Yosemite Valley, California",
+    "location": "Yosemite",
+    "theme": [
+      "Scenic Landscapes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "YOS_15_CF_F_F.png",
+    "label": "Yosemite Valley, California",
+    "location": "Yosemite",
+    "theme": [
+      "Cascading Falls"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "YOS_16_CF_T_F.png",
+    "label": "Yosemite Valley, California",
+    "location": "Yosemite",
+    "theme": [
+      "Cascading Falls"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "Thundering Grace",
+    "locationSlug": ""
+  },
+  {
+    "filename": "YOS_17_CF_F_F.png",
+    "label": "Yosemite Valley, California",
+    "location": "Yosemite",
+    "theme": [
+      "Cascading Falls"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "YOS_18_CF_F_F.png",
+    "label": "Yosemite Valley, California",
+    "location": "Yosemite",
+    "theme": [
+      "Cascading Falls"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "YOS_19_SL_F_F.png",
+    "label": "Yosemite Valley, California",
+    "location": "Yosemite",
+    "theme": [
+      "Scenic Landscapes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "YOS_20_SL_T_F.png",
+    "label": "Yosemite Valley, California",
+    "location": "Yosemite",
+    "theme": [
+      "Scenic Landscapes"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "Half Dome Horizon",
+    "locationSlug": ""
+  },
+  {
+    "filename": "YOS_21_SL_F_F.png",
+    "label": "Yosemite Valley, California",
+    "location": "Yosemite",
+    "theme": [
+      "Scenic Landscapes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "YOS_22_MV_F_F.png",
+    "label": "Yosemite Valley, California",
+    "location": "Yosemite",
+    "theme": [
+      "Mountain Vistas"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "YOS_23_MV_T_F.png",
+    "label": "Yosemite Valley, California",
+    "location": "Yosemite",
+    "theme": [
+      "Mountain Vistas"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "A Sentinel of the Sky",
+    "locationSlug": ""
+  },
+  {
+    "filename": "YOS_24_MV_F_F.png",
+    "label": "Yosemite Valley, California",
+    "location": "Yosemite",
+    "theme": [
+      "Mountain Vistas"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "YOS_25_MV_T_F.png",
+    "label": "Yosemite Valley, California",
+    "location": "Yosemite",
+    "theme": [
+      "Mountain Vistas"
+    ],
+    "isGallery": true,
+    "isLocationCover": false,
+    "title": "Emerald Set in Stone",
+    "locationSlug": ""
+  },
+  {
+    "filename": "YOS_26_MV_F_F.png",
+    "label": "Yosemite Valley, California",
+    "location": "Yosemite",
+    "theme": [
+      "Mountain Vistas"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "YOS_27_SL_F_F.JPG",
+    "label": "Yosemite Valley, California",
+    "location": "Yosemite",
+    "theme": [
+      "Scenic Landscapes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "YOS_28_SL_F_F.JPG",
+    "label": "Yosemite Valley, California",
+    "location": "Yosemite",
+    "theme": [
+      "Scenic Landscapes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "YOS_29_SL_F_F.png",
+    "label": "Yosemite Valley, California",
+    "location": "Yosemite",
+    "theme": [
+      "Scenic Landscapes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "YOS_30_SL_F_F.jpg",
+    "label": "Yosemite Valley, California",
+    "location": "Yosemite",
+    "theme": [
+      "Scenic Landscapes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "YOS_31_SL_F_F.png",
+    "label": "Yosemite Valley, California",
+    "location": "Yosemite",
+    "theme": [
+      "Scenic Landscapes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "YOS_32_SL_F_F.png",
+    "label": "Yosemite Valley, California",
+    "location": "Yosemite",
+    "theme": [
+      "Scenic Landscapes"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  },
+  {
+    "filename": "YOS_33_LV_F_F.png",
+    "label": "Yosemite Valley, California",
+    "location": "Yosemite",
+    "theme": [
+      "Lakeside Views"
+    ],
+    "isGallery": false,
+    "isLocationCover": false,
+    "title": "",
+    "locationSlug": ""
+  }
 ]
