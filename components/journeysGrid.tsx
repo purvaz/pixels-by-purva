@@ -1,4 +1,4 @@
-// Wrapper for the Journeys Page images
+// Wrapper for the Journeys Page images. 
 
 "use client";
 
@@ -75,3 +75,5 @@ export default function JourneysGrid({
     </>
   );
 }
+
+// Dummy change to trigger redeploy
