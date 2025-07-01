@@ -16,9 +16,9 @@ export default function About() {
 
             <div className="font-serif text-gray-900">
                 {/* Intro Section */}
-                <section className="max-w-5xl mx-auto px-6 pt-16 grid grid-cols-1 md:grid-cols-5 gap-16 items-start">
+                <section className="max-w-5xl mx-auto px-6 pt-8 md:pt-16 grid grid-cols-1 md:grid-cols-5 gap-16 items-start">
                     {/* Left: Portrait */}
-                    <div className="md:col-span-2 aspect-[3/4] overflow-hidden">
+                    <div className="md:col-span-2 md:aspect-[3/4] overflow-hidden">
                         <Image
                             src="/logo/PZ.png"
                             alt="Purva Joshi"
@@ -45,8 +45,8 @@ export default function About() {
 
                         <div className="text-base leading-relaxed space-y-4 text-gray-800">
                             <p>
-                                I didn&apos;t start with five lenses or a lifelong dream, I started with a tiny camera and the thought, “this is fun!” and that feeling stuck. Over the last eight years,
-                                I&apos;ve pointed my camera at things that don&apos;t speak, but somehow still say something.
+                                I didn&apos;t start with five lenses or a lifelong dream, I started with a tiny camera and the thought, “this is fun!” and that feeling stuck. 
+                                Over the last eight years, I&apos;ve taken photos of anything that felt beautiful to me. They may not be just grand landscapes but simple and everyday scenes most people walk past.
                             </p>
                             <p>
                                 Whether I&apos;m halfway up a mountain or spotting geometry in a quiet corner of the city,
@@ -57,7 +57,7 @@ export default function About() {
                             <p>
                                 By profession, I&apos;m a software engineer. I&apos;ve always wanted to build a space to share what I see with the world.
                                 So I figured, why not bring together the two things I love the most: coding and photography.
-                                I built this website as both a creative outlet and a home for the stories I&apos;ve framed along the way.
+                                I built this website as both a creative outlet and a home for the stories I&apos;ve captured along the way.
                             </p>
                             <p>
                                 This site is a collection of the moments that made me pause, and made everyone else wait while I got the shot! Every photo here was shot on nothing fancy—just my good old iPhone 13.
