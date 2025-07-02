@@ -62,7 +62,7 @@ export default function StoriesGrid() {
           {journalMetaData.map((journal, index) => (
             <div key={journal.slug} className="relative group">
               <div
-                className={`flex flex-col md:flex-row gap-6 md:gap-12 items-start transition-transform duration-300 ease-in-out hover:-translate-y-2 cursor-pointer ${index % 2 === 1 ? "md:flex-row-reverse text-right" : ""
+                className={`flex flex-col md:flex-row gap-6 md:gap-12 items-start transition-transform duration-300 ease-in-out hover:-translate-y-2 cursor-pointer text-center ${index % 2 === 1 ? "md:flex-row-reverse md:text-right" : "md:text-left"
                   }`}
                 onClick={() => {
                   setSelectedStory(journal);
@@ -101,7 +101,7 @@ export default function StoriesGrid() {
                 </div>
 
                 {/* 📝 Text Block */}
-                <div className="flex flex-col justify-center max-w-md">
+                <div className="flex flex-col justify-center max-w-md mt-6 md:mt-0">
                   <h3 className="text-2xl font-serif text-gray-900 group-hover:underline">
                     {journal.title.replace(/(^\w|\s\w)/g, t => t.toUpperCase())}
                   </h3>
