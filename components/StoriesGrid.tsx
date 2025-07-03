@@ -11,7 +11,7 @@ function StoryModal({ isOpen, onClose, story }: { isOpen: boolean; onClose: () =
 
   return (
     <div className="fixed inset-0 z-50 bg-black/60 backdrop-blur-sm flex items-center justify-center p-4 max-w-screen overflow-hidden">
-      <div className="bg-white max-w-4xl w-full max-h-[90vh] overflow-y-auto rounded-xl shadow-2xl shadow-black/10 border border-gray-200 p-10 md:p-12 relative">
+      <div className="bg-white max-w-4xl w-full max-h-[90vh] overflow-y-auto rounded-xl shadow-2xl shadow-black/10 border border-gray-200 p-10 sm:p-8 md:p-12 relative">
         <button
           className="absolute top-4 right-4 text-gray-500 hover:text-black transition"
           onClick={onClose}
@@ -31,7 +31,7 @@ function StoryModal({ isOpen, onClose, story }: { isOpen: boolean; onClose: () =
           </span>
           {story.blob.slice(1)}
         </p>
-        <div className={`grid gap-4 ${story.images.length <= 2 ? 'grid-cols-1' : story.images.length <= 5 ? 'grid-cols-2' : 'grid-cols-3'}`}>
+        <div className={`grid gap-4 grid-cols-1 sm:grid-cols-2 ${story.images.length > 5 ? 'md:grid-cols-3' : ''}`}>
           {story.images.map((img: string, idx: number) => (
             <div key={img + idx} className="relative w-full h-60">
               <Image
