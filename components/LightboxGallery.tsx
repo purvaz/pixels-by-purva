@@ -34,16 +34,16 @@ export default function LightboxGallery({
       window.removeEventListener("keydown", handleKeyDown);
     };
   }, [handleKeyDown]);
-   
+
   useEffect(() => {
     if (activeThumbRef.current && scrollContainerRef.current) {
       const active = activeThumbRef.current;
       const container = scrollContainerRef.current;
-  
+
       const activeLeft = active.offsetLeft;
       const activeWidth = active.offsetWidth;
       const containerWidth = container.offsetWidth;
-  
+
       // Scroll to center the active thumbnail
       container.scrollTo({
         left: activeLeft - containerWidth / 2 + activeWidth / 2,
@@ -51,7 +51,7 @@ export default function LightboxGallery({
       });
     }
   }, [currentIndex]);
-  
+
   const currentPhoto = images[currentIndex];
 
   return (
@@ -63,7 +63,7 @@ export default function LightboxGallery({
       >
         &times;
       </button>
-  
+
       {/* Location Title */}
       <h2
         className="text-white text-base md:text-lg font-light uppercase tracking-wide mt-4 mb-4 text-center"
@@ -71,7 +71,7 @@ export default function LightboxGallery({
       >
         {currentPhoto.label}
       </h2>
-  
+
       {/* Main Image */}
       <div className="w-full max-w-5xl mb-4">
         <Image
@@ -82,30 +82,34 @@ export default function LightboxGallery({
           className="object-contain w-full max-h-[75vh] h-auto rounded"
         />
       </div>
-  
-      {/* Navigation Arrows */}
-      <button
-        className="absolute left-4 top-1/2 transform -translate-y-1/2 text-white text-4xl"
-        onClick={() =>
-          setCurrentIndex((prev) => (prev - 1 + images.length) % images.length)
-        }
-      >
-        &#10094;
-      </button>
-      <button
-        className="absolute right-4 top-1/2 transform -translate-y-1/2 text-white text-4xl"
-        onClick={() =>
-          setCurrentIndex((prev) => (prev + 1) % images.length)
-        }
-      >
-        &#10095;
-      </button>
 
-      {/* Image Counter */}
-      <div className="text-sm text-gray-300">
-        {currentIndex + 1} / {images.length}
+      {/* Image Counter with Arrows */}
+      <div className="flex items-center justify-center gap-6 text-gray-300 text-sm my-2">
+        <button
+          className="text-2xl md:text-3xl px-2 py-1 hover:text-white transition"
+          onClick={() =>
+            setCurrentIndex((prev) => (prev - 1 + images.length) % images.length)
+          }
+          aria-label="Previous image"
+        >
+          &#10094;
+        </button>
+
+        <span>
+          {currentIndex + 1} / {images.length}
+        </span>
+
+        <button
+          className="text-2xl md:text-3xl px-2 py-1 hover:text-white transition"
+          onClick={() =>
+            setCurrentIndex((prev) => (prev + 1) % images.length)
+          }
+          aria-label="Next image"
+        >
+          &#10095;
+        </button>
       </div>
-  
+
       {/* Thumbnails */}
       <div ref={scrollContainerRef} className="w-full max-w-5xl overflow-x-auto mt-2 mb-4">
         <div className="flex gap-2 px-2 py-2 w-max">
@@ -113,9 +117,8 @@ export default function LightboxGallery({
             <div
               key={img.filename}
               ref={idx === currentIndex ? activeThumbRef : null}
-              className={`cursor-pointer flex-shrink-0 border-2 ${
-                idx === currentIndex ? "border-white" : "border-transparent"
-              }`}
+              className={`cursor-pointer flex-shrink-0 border-2 ${idx === currentIndex ? "border-white" : "border-transparent"
+                }`}
               onClick={() => setCurrentIndex(idx)}
               style={{ width: "96px", height: "64px" }}
             >
@@ -129,9 +132,9 @@ export default function LightboxGallery({
             </div>
           ))}
         </div>
-</div>
+      </div>
 
     </div>
   );
-  
+
 }
