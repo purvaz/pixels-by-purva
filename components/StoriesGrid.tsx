@@ -106,10 +106,7 @@ export default function StoriesGrid() {
                     {journal.title.replace(/(^\w|\s\w)/g, t => t.toUpperCase())}
                   </h3>
                   <p className="text-sm text-gray-500 italic mt-1">
-                    {new Date(journal.date).toLocaleDateString(undefined, {
-                      year: "numeric",
-                      month: "long",
-                    })}
+                    {journal.date}
                   </p>
                   <p className="mt-3 text-base text-gray-700 leading-relaxed line-clamp-4">
                     {journal.excerpt}
