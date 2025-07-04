@@ -55,7 +55,7 @@ export default function LightboxGallery({
   const currentPhoto = images[currentIndex];
 
   return (
-    <div className="fixed inset-0 z-50 bg-black/90 px-4 py-2 overflow-y-auto flex flex-col items-center justify-start max-w-screen">
+    <div className="fixed inset-0 z-50 bg-black/90 px-4 py-2 overflow-y-auto flex flex-col items-center justify-start max-h-screen max-w-screen">
       {/* Close Button */}
       <button
         className="absolute top-4 right-6 text-white text-4xl font-light"
@@ -79,12 +79,12 @@ export default function LightboxGallery({
           alt={currentPhoto.label}
           width={1400}
           height={900}
-          className="object-contain w-full max-h-[75vh] h-auto rounded"
+          className="object-contain w-full max-h-[74vh] h-auto rounded"
         />
       </div>
 
       {/* Image Counter with Arrows */}
-      <div className="flex items-center justify-center gap-6 text-gray-300 text-sm my-2">
+      <div className="flex items-center justify-center gap-6 text-gray-300 text-sm my-0">
         <button
           className="text-2xl md:text-3xl px-2 py-1 hover:text-white transition"
           onClick={() =>
@@ -111,7 +111,7 @@ export default function LightboxGallery({
       </div>
 
       {/* Thumbnails */}
-      <div ref={scrollContainerRef} className="w-full max-w-5xl overflow-x-auto mt-2 mb-4">
+      <div ref={scrollContainerRef} className="w-full max-w-5xl overflow-x-auto mt-0 mb-4 min-h-[80px]">
         <div className="flex gap-2 px-2 py-2 w-max">
           {images.map((img, idx) => (
             <div
