@@ -22,10 +22,7 @@ function StoryModal({ isOpen, onClose, story }: { isOpen: boolean; onClose: () =
           {story.title.replace(/(^\w|\s\w)/g, t => t.toUpperCase())}
         </h2>
         <p className="text-sm text-gray-500 italic mb-6">
-          {new Date(story.date).toLocaleDateString(undefined, {
-            year: "numeric",
-            month: "long",
-          })}
+          {story.date}
         </p>
         <hr className="border-gray-300 mb-4" />
         <p className="text-base text-gray-900 leading-relaxed mb-8 whitespace-pre-wrap max-w-3xl mx-auto">
