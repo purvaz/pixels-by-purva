@@ -11,8 +11,8 @@ export default function Home() {
       {/* Navbar containing title, subtitle and tabs */}
       <main className="font-serif">
         <Navbar
-          title="Purva Zinjarde"
-          subtitle="An Amateur Photographer Based in San Francisco"
+          title="Pixels by Purva"
+          subtitle="A glimpse into how I see the world through my lens"
         />
       </main>
 

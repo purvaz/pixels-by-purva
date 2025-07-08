@@ -10,7 +10,7 @@ export default function About() {
             <header>
                 <Navbar
                     title="About"
-                    subtitle="A glimpse into the mind behind the lens"
+                    subtitle="A peek into the mind behind the lens"
                 />
             </header>
 
@@ -35,7 +35,7 @@ export default function About() {
                         </h2>
 
                         <div className="space-y-1">
-                            <h3 className="text-xl uppercase pb-3 font-lightest tracking-widest text-gray-700">Purva Zinjarde</h3>
+                            <h3 className="text-xl uppercase pb-3 font-lightest tracking-widest text-gray-700">Purva Zinjarde-Joshi</h3>
                             <p className="uppercase text-sm tracking-widest text-gray-500">
                                 An Amateur Photographer &amp; Visual Storyteller based in San Francisco
                             </p>
