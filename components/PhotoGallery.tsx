@@ -4,7 +4,7 @@
 
 import { useEffect, useState } from "react";
 import Image from "next/image";
-import  photoMetaData  from "@/data/photoMetaData.json";
+import photoMetaData from "@/data/photoMetaData.json";
 import { motion } from "framer-motion";
 
 export default function PhotoGallery() {
@@ -19,7 +19,9 @@ export default function PhotoGallery() {
     // Handle Escape key to close
     useEffect(() => {
         const handleKey = (e: KeyboardEvent) => {
-            if (e.key === "Escape") setSelectedPhoto(null);
+            if (e.key === "Escape") {
+                setSelectedPhoto(null);
+            }
         };
         window.addEventListener("keydown", handleKey);
         return () => window.removeEventListener("keydown", handleKey);
@@ -51,13 +53,6 @@ export default function PhotoGallery() {
                                 className="object-cover"
                             />
                         </div>
-                        {/* <Image
-                            src={`${process.env.NEXT_PUBLIC_BASE_URL}/${photo.filename}`}
-                            alt={photo.label}
-                            width={500}
-                            height={400}
-                            className="w-full h-auto object-cover"
-                        /> */}
 
                         {/* Hover Overlay */}
                         <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
@@ -105,6 +100,7 @@ export default function PhotoGallery() {
                                 height={1000}
                                 className="w-full h-auto max-h-[80vh] object-contain rounded"
                             />
+
                             <button
                                 onClick={() => setSelectedPhoto(null)}
                                 className="absolute top-2 right-2 text-white text-3xl font-light"
@@ -112,6 +108,7 @@ export default function PhotoGallery() {
                                 &times;
                             </button>
                         </div>
+
                     </div>
                 </div>
             )}
