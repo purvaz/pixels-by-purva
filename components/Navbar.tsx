@@ -28,15 +28,15 @@ export default function Navbar({
     { href: "/about", label: "About" }
   ];
 
-  const [showTooltip, setShowTooltip] = useState(true);
+  // const [showTooltip, setShowTooltip] = useState(true);
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setShowTooltip(false);
-    }, 3000); // hide after 3s
+  // useEffect(() => {
+  //   const timer = setTimeout(() => {
+  //     setShowTooltip(false);
+  //   }, 3000); // hide after 3s
 
-    return () => clearTimeout(timer);
-  }, []);
+  //   return () => clearTimeout(timer);
+  // }, []);
 
   return (
     <header className="px-4 md:px-8 lg:px-12 pt-10 pb-6 font-serif relative">
