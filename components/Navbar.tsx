@@ -4,7 +4,8 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useState } from "react";
+import { motion } from "framer-motion";
+import { useEffect, useState } from "react";
 
 export default function Navbar({
   title,
@@ -27,9 +28,20 @@ export default function Navbar({
     { href: "/about", label: "About" }
   ];
 
+  const [showTooltip, setShowTooltip] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowTooltip(false);
+    }, 3000); // hide after 3s
+
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <header className="px-4 md:px-8 lg:px-12 pt-10 pb-6 font-serif relative">
-      <div className="flex flex-col md:flex-row md:items-center md:justify-between">
+      <div className="flex flex-row items-center justify-between">
+
         {/* Title */}
         <h1
           className="text-3xl md:text-4xl tracking-wider font-[400] uppercase"
@@ -40,14 +52,21 @@ export default function Navbar({
 
         {/* Mobile Burger Icon */}
         <button
-          className="absolute top-12 right-6 md:hidden text-gray-700"
           onClick={() => setIsOpen(!isOpen)}
           aria-label="Toggle navigation menu"
+          className="md:hidden flex flex-col items-center gap-1/2 text-gray-700 text-sm uppercase tracking-wider relative"
         >
-          <span className="material-icons text-3xl">
+          <motion.span
+            className="material-icons text-4xl"
+            initial={{ scale: 1 }}
+            animate={{ scale: [1, 1.2, 1] }}
+            transition={{ duration: 0.8, repeat: 3, ease: "easeInOut" }}
+          >
             {isOpen ? "close" : "menu"}
-          </span>
+          </motion.span>
+          <span className="text-[0.7rem]">{isOpen ? "close" : "menu"}</span>
         </button>
+
 
         {/* Tabs - desktop */}
         <nav className="hidden md:flex mt-4 md:mt-0 gap-6 text-sm uppercase font-medium tracking-wide">

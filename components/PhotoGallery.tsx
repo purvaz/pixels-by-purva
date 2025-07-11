@@ -40,7 +40,7 @@ export default function PhotoGallery() {
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{
                             duration: 0.6,
-                            delay: index * 0.05,
+                            delay: index * 0.02,
                             ease: "easeOut"
                         }}
                         viewport={{ once: true }}
