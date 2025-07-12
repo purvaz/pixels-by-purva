@@ -192,7 +192,7 @@ export default function Navbar({
 
       if (idleTimeout.current) clearTimeout(idleTimeout.current);
       idleTimeout.current = setTimeout(() => {
-        if (window.scrollY > 10) setShowNavbar(false);
+        if (window.scrollY > 20) setShowNavbar(false);
       }, 3000);
 
       lastScrollY.current = currentScrollY;
