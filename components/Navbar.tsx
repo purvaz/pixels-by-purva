@@ -1,10 +1,7 @@
-// Component for Nav Bar
-
 "use client";
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { motion } from "framer-motion";
 import { useState } from "react";
 
 export default function Navbar({
@@ -15,7 +12,7 @@ export default function Navbar({
   subtitle?: string;
 }) {
   const pathname = usePathname();
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(true); // mobile tabs are shown by default
 
   const linkClass = (href: string) =>
     `${pathname === href ? "text-teal-600" : "text-gray-800"} hover:text-teal-600`;
@@ -31,7 +28,6 @@ export default function Navbar({
   return (
     <header className="px-4 md:px-8 lg:px-12 pt-10 pb-6 font-serif relative">
       <div className="flex flex-row items-center justify-between">
-
         {/* Title */}
         <h1
           className="text-3xl md:text-4xl tracking-wider font-[400] uppercase"
@@ -40,25 +36,19 @@ export default function Navbar({
           {title}
         </h1>
 
-        {/* Mobile Burger Icon */}
+        {/* Mobile Chevron Toggle */}
         <button
           onClick={() => setIsOpen(!isOpen)}
-          aria-label="Toggle navigation menu"
-          className="md:hidden flex flex-col items-center gap-1/2 text-gray-700 text-sm uppercase tracking-wider relative"
+          aria-label="Toggle mobile tabs"
+          className="md:hidden"
         >
-          <motion.span
-            className="material-icons text-4xl"
-            initial={{ scale: 1 }}
-            animate={{ scale: [1, 1.2, 1] }}
-            transition={{ duration: 0.8, repeat: 3, ease: "easeInOut" }}
-          >
-            {isOpen ? "close" : "menu"}
-          </motion.span>
-          <span className="text-[0.7rem]">{isOpen ? "close" : "menu"}</span>
+          <span className="material-icons text-3xl text-gray-700">
+            {isOpen ? "expand_less" : "expand_more"}
+          </span>
         </button>
 
 
-        {/* Tabs - desktop */}
+        {/* Desktop Tabs */}
         <nav className="hidden md:flex mt-4 md:mt-0 gap-6 text-sm uppercase font-medium tracking-wide">
           {links.map(({ href, label }) => (
             <Link key={href} href={href} className={linkClass(href)}>
@@ -68,20 +58,22 @@ export default function Navbar({
         </nav>
       </div>
 
-      {/* Tabs - mobile dropdown */}
+      {/* Mobile Tabs */}
       {isOpen && (
-        <div className="mt-4 flex flex-col md:hidden gap-4 text-sm uppercase font-medium tracking-wide">
-          {links.map(({ href, label }) => (
-            <Link
-              key={href}
-              href={href}
-              className={linkClass(href)}
-              onClick={() => setIsOpen(false)} // close menu on click
-            >
-              {label}
-            </Link>
-          ))}
-        </div>
+        <nav className="mt-4 md:hidden overflow-x-auto">
+          <div className="flex gap-6 text-sm uppercase font-medium tracking-wide pb-1 px-1 min-w-max no-scrollbar">
+            {links.map(({ href, label }) => (
+              <Link
+                key={href}
+                href={href}
+                className={linkClass(href)}
+                onClick={() => setIsOpen(false)} // optional: collapse on selection
+              >
+                {label}
+              </Link>
+            ))}
+          </div>
+        </nav>
       )}
 
       <hr className="my-4 border-t border-black" />
