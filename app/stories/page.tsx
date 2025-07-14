@@ -4,7 +4,7 @@ import StoriesGrid from "@/components/StoriesGrid"
 export default function Stories() {
 
     return (
-        <div className="flex flex-col min-h-screen font-serif">
+        <div className="pt-[140px] flex flex-col min-h-screen font-serif">
             <header>
                 <Navbar
                     title="Stories"
@@ -12,7 +12,9 @@ export default function Stories() {
                 />
             </header>
             <main>
+            <div className="pt-10 md:pt-0">
                 <StoriesGrid/>
+                </div>
             </main>
         </div>
     )

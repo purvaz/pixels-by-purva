@@ -7,7 +7,7 @@ import { Analytics } from "@vercel/analytics/next"
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen font-serif">
+    <div className="pt-[140px] flex flex-col min-h-screen font-serif">
       {/* Navbar containing title, subtitle and tabs */}
       <main className="font-serif">
         <Navbar
@@ -17,7 +17,9 @@ export default function Home() {
       </main>
 
       {/* The photo gallery component */}
-      <PhotoGallery />
+      <div className="pt-12 md:pt-0"> {/* Adjust pt-32 based on navbar height */}
+        <PhotoGallery />
+      </div>
 
       {/* Footer containing logo and copyright */}
       <Footer></Footer>

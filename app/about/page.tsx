@@ -6,7 +6,7 @@ import Footer from "@/components/Footer";
 
 export default function About() {
     return (
-        <div className="flex flex-col min-h-screen font-serif">
+        <div className="pt-[140px] flex flex-col min-h-screen font-serif">
             <header>
                 <Navbar
                     title="About"
@@ -14,7 +14,7 @@ export default function About() {
                 />
             </header>
 
-            <div className="font-serif text-gray-900">
+            <div className="pt-12 font-serif text-gray-900">
                 {/* Intro Section */}
                 <section className="max-w-5xl mx-auto px-6 pt-8 md:pt-16 grid grid-cols-1 md:grid-cols-5 gap-16 items-start">
                     {/* Left: Portrait */}
